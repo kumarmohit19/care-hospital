@@ -36,13 +36,32 @@ class ViewPatient extends Component {
           </p>
         </div>
         <div className="FormCenter">
-          
-            <form onSubmit={this.handleSubmit} className="FormFields">
               {/* Write code here to create fields for name, disease,appdate, slot and mobile*/}
               <div className="FormField">
+             <span htmlFor="name" className="">Username</span>
+             <input type="text" name="name" id="name" className="FormField__Input" value={this.patient.name} onChange={this.handleChange} placeholder="Enter email"/>
+            </div>
+            <div className="FormField">
+             <span htmlFor="email" className="">Email ID</span>
+             <input type="email" id="email"  name="email" className="FormField__Input" value={this.patient.email} onChange={this.handleChange} placeholder="Enter Password"/>
+            </div>
+            <div className="FormField">
+             <span htmlFor="dob" className="">Date of Birth</span>
+             <input type="date" id="dob"  name="dob" className="FormField__Input" value={this.patient.dob} onChange={this.handleChange} placeholder="Enter Password"/>
+            </div>
+            <div className="FormField">
+             <span htmlFor="mobileno" className="">Mobile No</span>
+             <input type="ph" name="mobileno" id="mobileno" className="FormField__Input" value={this.patient.mobileno} onChange={this.handleChange} placeholder="Enter email"/>
+            </div>
+            <div className="FormField">
+             <span htmlFor="location" className="">Location</span>
+             <input type="location" id="location"  name="location" className="FormField__Input" value={this.patient.location} onChange={this.handleChange} placeholder="Enter Password"/>
+            </div>
+              <div className="FormField">
                 {/*Write code here to create close button */}
+                <button type="submit" className="FormField__Button" onClick={this.handleClose}>Close</button>
               </div>
-            </form>
+            
           
         </div>
       </div>

@@ -80,6 +80,38 @@ class AddPatient extends Component {
           </p>
         </div>
         {/* Write code here to create fields and input labels for name,email,dob,mobileno and location  */}
+        <div className="FormCenter">
+          <div className="FormTitle">
+            
+          </div>
+          <form onSubmit={this.handleSubmit} className="FormFields">
+              <div className="FormField">
+              <label htmlFor="name" className="FormField__Label">Name</label>
+              <input type="text" name="name" id="name" className="FormField__Input" value={this.name} onChange={this.handleChange} placeholder="Enter email"/>
+              </div>
+              <div className="FormField">
+              <label htmlFor="email" className="FormField__Label">Email ID</label>
+              <input type="email" id="email"  name="email" className="FormField__Input" value={this.email} onChange={this.handleChange} placeholder="Enter Password"/>
+              </div>
+              <div className="FormField">
+              <label htmlFor="dob" className="FormField__Label">Date of Birth</label>
+              <input type="date" id="dob"  name="dob" className="FormField__Input" value={this.dob} onChange={this.handleChange} placeholder="Enter Password"/>
+              </div>
+              <div className="FormField">
+              <label htmlFor="location" className="FormField__Label">Location</label>
+              <input type="location" id="location"  name="location" className="FormField__Input" value={this.location} onChange={this.handleChange} placeholder="Enter Password"/>
+              </div>
+              <div className="FormField">
+              <label htmlFor="mobileno" className="FormField__Label">Mobile No</label>
+              <input type="ph" name="mobileno" id="mobileno" className="FormField__Input" value={this.mobileno} onChange={this.handleChange} placeholder="Enter email"/>
+              </div>
+              <div className="FormField">
+                {/* Write code here to create Register Button */}
+                <button type="submit" className="FormField__Button mr-3" >Register</button>
+                <button type="reset" className="FormField__Button" >Cancle</button>
+              </div>
+            </form>
+          </div>
       </div>
     );
   }

@@ -92,8 +92,36 @@ class EditAppointment extends Component {
           </p>
         </div>
         <div className="FormCenter">
+          <div className="FormTitle">
+            
+          </div>
           <form onSubmit={this.handleSubmit} className="FormFields">
             {/*it should have fields like name, disease, appdate, slot, description, submit and cancel buttons */}
+            <div className="FormField">
+             <label htmlFor="name" className="FormField__Label">Username</label>
+             <input type="text" name="name" id="name" className="FormField__Input" value={this.name} onChange={this.handleChange} placeholder="Enter email"/>
+            </div>
+            <div className="FormField">
+             <label htmlFor="disease" className="FormField__Label">disease</label>
+             <input type="disease" id="disease"  name="disease" className="FormField__Input" value={this.disease} onChange={this.handleChange} placeholder="Enter Password"/>
+            </div>
+            <div className="FormField">
+             <label htmlFor="appdate" className="FormField__Label">Date of Birth</label>
+             <input type="date" id="appdate"  name="appdate" className="FormField__Input" value={this.appdate} onChange={this.handleChange} placeholder="Enter Password"/>
+            </div>
+            <div className="FormField">
+             <label htmlFor="slot" className="FormField__Label">Mobile No</label>
+             <input type="text" name="slot" id="slot" className="FormField__Input" value={this.slot} onChange={this.handleChange} placeholder="Enter email"/>
+            </div>
+            <div className="FormField">
+             <label htmlFor="description" className="FormField__Label">description</label>
+             <input type="text" id="description"  name="description" className="FormField__Input" value={this.description} onChange={this.handleChange} placeholder="Enter Password"/>
+            </div>
+              <div className="SideRow">
+               {/* Write code here to create submit and cancel buttons */}
+               <button type="submit" className="FormField__Button" >Submit</button>
+               <button type="reset" className="FormField__Button" onClick={this.handleCancel} >Cancle</button>
+              </div>
           </form>
         </div>
       </div>

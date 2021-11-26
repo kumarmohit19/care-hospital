@@ -7,6 +7,7 @@ class AllPatients extends Component {
     super(props);
     this.state = {
        //Write function to get the data of patients with the name as appointmentsList:
+      patientsList: patientDetailsData.getData()
     };
     this.handleView = this.handleView.bind(this);
     this.handleEdit = this.handleEdit.bind(this);
@@ -40,7 +41,13 @@ class AllPatients extends Component {
               No Patients Found
             </h1>
           ) : (
-          {/*Write code here to create all patients details*/}
+          patientsList.map(patient=>(
+            <div key={patient.id}>
+              <label htmlFor="name">{patient.name}</label>
+              <button onClick={this.handleEdit}>Edit</button>
+              <button onClick={this.handleView}>View</button>
+            </div>
+          ))
           )}
         </form>
       </div>

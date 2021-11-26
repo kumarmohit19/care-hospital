@@ -9,6 +9,7 @@ class AllAppointments extends Component {
     super();
     this.state = {
        //Write function to get the appointment details with the name as appointmentsList:
+       appointmentsList:appDetailsData.getData()
     };
     this.handleView = this.handleView.bind(this);
     this.handleEdit = this.handleEdit.bind(this);
@@ -40,7 +41,7 @@ class AllAppointments extends Component {
         <NavBar />
 
         <form style={{ display: "flex", height: "100%", alignItems: "center" }}>
-          {appointmentsList.length === 0 ? (
+          { appointmentsList.length === 0 ? (
             <h1 style={{ textAlign: "center", flexGrow: "1" }}>
               No Appoinments Found
             </h1>
@@ -60,7 +61,12 @@ class AllAppointments extends Component {
                 </p>
               </div>
               {appointmentsList.map((appointment,index) => (
-              {/*Write code here to list the appointments along with the buttons*/}
+              <div key={index}>
+                {appointment.name}, {appointment.slot}
+                <button onClick={this.handleEdit}>Edit</button>
+                <button onClick={this.handleView}>View</button>
+                <button onClick={this.handleDelete}>Delete</button>
+            </div>
               ))}
             </div>
           )}
