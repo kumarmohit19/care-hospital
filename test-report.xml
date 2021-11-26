@@ -1,0 +1,992 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite id="0" name="/projects/challenge/src/tests/EditPatient.test.js" errors="0" package="/projects/challenge/src/tests/EditPatient.test.js" hostname="localhost" tests="13" failures="2" time="18.216" timestamp="2021-11-26T23:10:31">
+    <properties>
+    </properties>
+    <testcase classname="testing EditPatient" name="should render eight &lt;div/&gt;" time="0">
+    </testcase>
+    <testcase classname="testing EditPatient" name="should render five labels &lt;label/&gt;" time="0">
+    </testcase>
+    <testcase classname="testing EditPatient" name="should render three inputs &lt;input/&gt;" time="0">
+    </testcase>
+    <testcase classname="testing EditPatient" name="renders a name input" time="0">
+    </testcase>
+    <testcase classname="testing EditPatient" name="renders a email" time="0">
+    </testcase>
+    <testcase classname="testing EditPatient" name="renders a dob" time="0">
+    </testcase>
+    <testcase classname="testing EditPatient" name="renders a location" time="0">
+    </testcase>
+    <testcase classname="testing EditPatient" name="renders a mobile" time="0">
+      <failure message="Error: expect(received).toEqual(expected)
+
+Expected value to equal:
+  1
+Received:
+  0
+    at Object.it (/projects/challenge/src/tests/EditPatient.test.js:41:218)
+    at Object.asyncFn (/projects/challenge/node_modules/jest-jasmine2/build/jasmine-async.js:68:30)
+    at resolve (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:38:12)
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:31:21)
+    at Promise.resolve.then.el (/projects/challenge/node_modules/p-map/index.js:46:16)
+    at &lt;anonymous&gt;
+    at process._tickCallback (internal/process/next_tick.js:189:7)" type="AssertionError">
+      </failure>
+    </testcase>
+    <testcase classname="testing EditPatient" name="should change the name state of adding patient" time="0">
+    </testcase>
+    <testcase classname="testing EditPatient" name="should change the email state of adding patient" time="0">
+    </testcase>
+    <testcase classname="testing EditPatient" name="should change the dob state of adding patient" time="0">
+    </testcase>
+    <testcase classname="testing EditPatient" name="should change the location state of adding patient" time="0">
+    </testcase>
+    <testcase classname="testing EditPatient" name="should change the mobile state of adding patient" time="0">
+      <failure message="Error: Method “simulate” is meant to be run on 1 node. 0 found instead.
+    at ShallowWrapper.single (/projects/challenge/node_modules/enzyme/build/ShallowWrapper.js:2197:17)
+    at ShallowWrapper.simulate (/projects/challenge/node_modules/enzyme/build/ShallowWrapper.js:1371:21)
+    at Object.it (/projects/challenge/src/tests/EditPatient.test.js:62:29)
+    at Object.asyncFn (/projects/challenge/node_modules/jest-jasmine2/build/jasmine-async.js:68:30)
+    at resolve (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:38:12)
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:31:21)
+    at Promise.resolve.then.el (/projects/challenge/node_modules/p-map/index.js:46:16)
+    at &lt;anonymous&gt;
+    at process._tickCallback (internal/process/next_tick.js:189:7)" type="AssertionError">
+      </failure>
+    </testcase>
+    <system-out/>
+    <system-err/>
+  </testsuite>
+  <testsuite id="1" name="/projects/challenge/src/tests/ViewPatient.test.js" errors="0" package="/projects/challenge/src/tests/ViewPatient.test.js" hostname="localhost" tests="7" failures="7" time="18.213" timestamp="2021-11-26T23:10:31">
+    <properties>
+    </properties>
+    <testcase classname="testing ViewPatient" name="should render seven &lt;div /&gt;" time="0">
+      <failure message="TypeError: Cannot read property &apos;name&apos; of undefined
+    at ViewPatient.render (/projects/challenge/src/pages/ViewPatient.jsx:42:224)
+    at ReactShallowRenderer._mountClassComponent (/projects/challenge/node_modules/react-test-renderer/cjs/react-test-renderer-shallow.development.js:883:37)
+    at ReactShallowRenderer.render (/projects/challenge/node_modules/react-test-renderer/cjs/react-test-renderer-shallow.development.js:800:14)
+    at renderElement (/projects/challenge/node_modules/enzyme-adapter-react-16/build/ReactSixteenAdapter.js:786:42)
+    at /projects/challenge/node_modules/enzyme-adapter-react-16/build/ReactSixteenAdapter.js:923:22
+    at withSetStateAllowed (/projects/challenge/node_modules/enzyme-adapter-utils/build/Utils.js:178:16)
+    at Object.render (/projects/challenge/node_modules/enzyme-adapter-react-16/build/ReactSixteenAdapter.js:922:64)
+    at new ShallowWrapper (/projects/challenge/node_modules/enzyme/build/ShallowWrapper.js:424:22)
+    at shallow (/projects/challenge/node_modules/enzyme/build/shallow.js:21:10)
+    at Object.beforeEach (/projects/challenge/src/tests/ViewPatient.test.js:18:51)
+    at Object.asyncFn (/projects/challenge/node_modules/jest-jasmine2/build/jasmine-async.js:38:30)
+    at resolve (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:38:12)
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:31:21)
+    at Promise.resolve.then.el (/projects/challenge/node_modules/p-map/index.js:46:16)
+    at &lt;anonymous&gt;
+    at process._tickCallback (internal/process/next_tick.js:189:7)" type="AssertionError">
+      </failure>
+      <failure message="TypeError: Cannot read property &apos;find&apos; of undefined
+    at Object.it (/projects/challenge/src/tests/ViewPatient.test.js:23:38)
+    at Object.asyncFn (/projects/challenge/node_modules/jest-jasmine2/build/jasmine-async.js:68:30)
+    at resolve (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:38:12)
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:31:21)
+    at Promise.resolve.then.el (/projects/challenge/node_modules/p-map/index.js:46:16)
+    at &lt;anonymous&gt;
+    at process._tickCallback (internal/process/next_tick.js:189:7)" type="AssertionError">
+      </failure>
+    </testcase>
+    <testcase classname="testing ViewPatient" name="should render five labels &lt;span/&gt;" time="0">
+      <failure message="TypeError: Cannot read property &apos;name&apos; of undefined
+    at ViewPatient.render (/projects/challenge/src/pages/ViewPatient.jsx:42:224)
+    at ReactShallowRenderer._mountClassComponent (/projects/challenge/node_modules/react-test-renderer/cjs/react-test-renderer-shallow.development.js:883:37)
+    at ReactShallowRenderer.render (/projects/challenge/node_modules/react-test-renderer/cjs/react-test-renderer-shallow.development.js:800:14)
+    at renderElement (/projects/challenge/node_modules/enzyme-adapter-react-16/build/ReactSixteenAdapter.js:786:42)
+    at /projects/challenge/node_modules/enzyme-adapter-react-16/build/ReactSixteenAdapter.js:923:22
+    at withSetStateAllowed (/projects/challenge/node_modules/enzyme-adapter-utils/build/Utils.js:178:16)
+    at Object.render (/projects/challenge/node_modules/enzyme-adapter-react-16/build/ReactSixteenAdapter.js:922:64)
+    at new ShallowWrapper (/projects/challenge/node_modules/enzyme/build/ShallowWrapper.js:424:22)
+    at shallow (/projects/challenge/node_modules/enzyme/build/shallow.js:21:10)
+    at Object.beforeEach (/projects/challenge/src/tests/ViewPatient.test.js:18:51)
+    at Object.asyncFn (/projects/challenge/node_modules/jest-jasmine2/build/jasmine-async.js:38:30)
+    at resolve (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:38:12)
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:31:21)
+    at Promise.resolve.then.el (/projects/challenge/node_modules/p-map/index.js:46:16)
+    at &lt;anonymous&gt;
+    at process._tickCallback (internal/process/next_tick.js:189:7)" type="AssertionError">
+      </failure>
+      <failure message="TypeError: Cannot read property &apos;find&apos; of undefined
+    at Object.it (/projects/challenge/src/tests/ViewPatient.test.js:30:22)
+    at Object.asyncFn (/projects/challenge/node_modules/jest-jasmine2/build/jasmine-async.js:68:30)
+    at resolve (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:38:12)
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:31:21)
+    at Promise.resolve.then.el (/projects/challenge/node_modules/p-map/index.js:46:16)
+    at &lt;anonymous&gt;
+    at process._tickCallback (internal/process/next_tick.js:189:7)" type="AssertionError">
+      </failure>
+    </testcase>
+    <testcase classname="testing ViewPatient" name="renders a name input" time="0">
+      <failure message="TypeError: Cannot read property &apos;name&apos; of undefined
+    at ViewPatient.render (/projects/challenge/src/pages/ViewPatient.jsx:42:224)
+    at ReactShallowRenderer._mountClassComponent (/projects/challenge/node_modules/react-test-renderer/cjs/react-test-renderer-shallow.development.js:883:37)
+    at ReactShallowRenderer.render (/projects/challenge/node_modules/react-test-renderer/cjs/react-test-renderer-shallow.development.js:800:14)
+    at renderElement (/projects/challenge/node_modules/enzyme-adapter-react-16/build/ReactSixteenAdapter.js:786:42)
+    at /projects/challenge/node_modules/enzyme-adapter-react-16/build/ReactSixteenAdapter.js:923:22
+    at withSetStateAllowed (/projects/challenge/node_modules/enzyme-adapter-utils/build/Utils.js:178:16)
+    at Object.render (/projects/challenge/node_modules/enzyme-adapter-react-16/build/ReactSixteenAdapter.js:922:64)
+    at new ShallowWrapper (/projects/challenge/node_modules/enzyme/build/ShallowWrapper.js:424:22)
+    at shallow (/projects/challenge/node_modules/enzyme/build/shallow.js:21:10)
+    at Object.beforeEach (/projects/challenge/src/tests/ViewPatient.test.js:18:51)
+    at Object.asyncFn (/projects/challenge/node_modules/jest-jasmine2/build/jasmine-async.js:38:30)
+    at resolve (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:38:12)
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:31:21)
+    at Promise.resolve.then.el (/projects/challenge/node_modules/p-map/index.js:46:16)
+    at &lt;anonymous&gt;
+    at process._tickCallback (internal/process/next_tick.js:189:7)" type="AssertionError">
+      </failure>
+      <failure message="TypeError: Cannot read property &apos;name&apos; of undefined
+    at ViewPatient.render (/projects/challenge/src/pages/ViewPatient.jsx:42:224)
+    at ReactShallowRenderer._mountClassComponent (/projects/challenge/node_modules/react-test-renderer/cjs/react-test-renderer-shallow.development.js:883:37)
+    at ReactShallowRenderer.render (/projects/challenge/node_modules/react-test-renderer/cjs/react-test-renderer-shallow.development.js:800:14)
+    at renderElement (/projects/challenge/node_modules/enzyme-adapter-react-16/build/ReactSixteenAdapter.js:786:42)
+    at /projects/challenge/node_modules/enzyme-adapter-react-16/build/ReactSixteenAdapter.js:923:22
+    at withSetStateAllowed (/projects/challenge/node_modules/enzyme-adapter-utils/build/Utils.js:178:16)
+    at Object.render (/projects/challenge/node_modules/enzyme-adapter-react-16/build/ReactSixteenAdapter.js:922:64)
+    at new ShallowWrapper (/projects/challenge/node_modules/enzyme/build/ShallowWrapper.js:424:22)
+    at shallow (/projects/challenge/node_modules/enzyme/build/shallow.js:21:10)
+    at Object.it (/projects/challenge/src/tests/ViewPatient.test.js:33:34)
+    at Object.asyncFn (/projects/challenge/node_modules/jest-jasmine2/build/jasmine-async.js:68:30)
+    at resolve (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:38:12)
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:31:21)
+    at Promise.resolve.then.el (/projects/challenge/node_modules/p-map/index.js:46:16)
+    at &lt;anonymous&gt;
+    at process._tickCallback (internal/process/next_tick.js:189:7)" type="AssertionError">
+      </failure>
+    </testcase>
+    <testcase classname="testing ViewPatient" name="renders a email" time="0">
+      <failure message="TypeError: Cannot read property &apos;name&apos; of undefined
+    at ViewPatient.render (/projects/challenge/src/pages/ViewPatient.jsx:42:224)
+    at ReactShallowRenderer._mountClassComponent (/projects/challenge/node_modules/react-test-renderer/cjs/react-test-renderer-shallow.development.js:883:37)
+    at ReactShallowRenderer.render (/projects/challenge/node_modules/react-test-renderer/cjs/react-test-renderer-shallow.development.js:800:14)
+    at renderElement (/projects/challenge/node_modules/enzyme-adapter-react-16/build/ReactSixteenAdapter.js:786:42)
+    at /projects/challenge/node_modules/enzyme-adapter-react-16/build/ReactSixteenAdapter.js:923:22
+    at withSetStateAllowed (/projects/challenge/node_modules/enzyme-adapter-utils/build/Utils.js:178:16)
+    at Object.render (/projects/challenge/node_modules/enzyme-adapter-react-16/build/ReactSixteenAdapter.js:922:64)
+    at new ShallowWrapper (/projects/challenge/node_modules/enzyme/build/ShallowWrapper.js:424:22)
+    at shallow (/projects/challenge/node_modules/enzyme/build/shallow.js:21:10)
+    at Object.beforeEach (/projects/challenge/src/tests/ViewPatient.test.js:18:51)
+    at Object.asyncFn (/projects/challenge/node_modules/jest-jasmine2/build/jasmine-async.js:38:30)
+    at resolve (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:38:12)
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:31:21)
+    at Promise.resolve.then.el (/projects/challenge/node_modules/p-map/index.js:46:16)
+    at &lt;anonymous&gt;
+    at process._tickCallback (internal/process/next_tick.js:189:7)" type="AssertionError">
+      </failure>
+      <failure message="TypeError: Cannot read property &apos;name&apos; of undefined
+    at ViewPatient.render (/projects/challenge/src/pages/ViewPatient.jsx:42:224)
+    at ReactShallowRenderer._mountClassComponent (/projects/challenge/node_modules/react-test-renderer/cjs/react-test-renderer-shallow.development.js:883:37)
+    at ReactShallowRenderer.render (/projects/challenge/node_modules/react-test-renderer/cjs/react-test-renderer-shallow.development.js:800:14)
+    at renderElement (/projects/challenge/node_modules/enzyme-adapter-react-16/build/ReactSixteenAdapter.js:786:42)
+    at /projects/challenge/node_modules/enzyme-adapter-react-16/build/ReactSixteenAdapter.js:923:22
+    at withSetStateAllowed (/projects/challenge/node_modules/enzyme-adapter-utils/build/Utils.js:178:16)
+    at Object.render (/projects/challenge/node_modules/enzyme-adapter-react-16/build/ReactSixteenAdapter.js:922:64)
+    at new ShallowWrapper (/projects/challenge/node_modules/enzyme/build/ShallowWrapper.js:424:22)
+    at shallow (/projects/challenge/node_modules/enzyme/build/shallow.js:21:10)
+    at Object.it (/projects/challenge/src/tests/ViewPatient.test.js:36:34)
+    at Object.asyncFn (/projects/challenge/node_modules/jest-jasmine2/build/jasmine-async.js:68:30)
+    at resolve (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:38:12)
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:31:21)
+    at Promise.resolve.then.el (/projects/challenge/node_modules/p-map/index.js:46:16)
+    at &lt;anonymous&gt;
+    at process._tickCallback (internal/process/next_tick.js:189:7)" type="AssertionError">
+      </failure>
+    </testcase>
+    <testcase classname="testing ViewPatient" name="renders a dob" time="0">
+      <failure message="TypeError: Cannot read property &apos;name&apos; of undefined
+    at ViewPatient.render (/projects/challenge/src/pages/ViewPatient.jsx:42:224)
+    at ReactShallowRenderer._mountClassComponent (/projects/challenge/node_modules/react-test-renderer/cjs/react-test-renderer-shallow.development.js:883:37)
+    at ReactShallowRenderer.render (/projects/challenge/node_modules/react-test-renderer/cjs/react-test-renderer-shallow.development.js:800:14)
+    at renderElement (/projects/challenge/node_modules/enzyme-adapter-react-16/build/ReactSixteenAdapter.js:786:42)
+    at /projects/challenge/node_modules/enzyme-adapter-react-16/build/ReactSixteenAdapter.js:923:22
+    at withSetStateAllowed (/projects/challenge/node_modules/enzyme-adapter-utils/build/Utils.js:178:16)
+    at Object.render (/projects/challenge/node_modules/enzyme-adapter-react-16/build/ReactSixteenAdapter.js:922:64)
+    at new ShallowWrapper (/projects/challenge/node_modules/enzyme/build/ShallowWrapper.js:424:22)
+    at shallow (/projects/challenge/node_modules/enzyme/build/shallow.js:21:10)
+    at Object.beforeEach (/projects/challenge/src/tests/ViewPatient.test.js:18:51)
+    at Object.asyncFn (/projects/challenge/node_modules/jest-jasmine2/build/jasmine-async.js:38:30)
+    at resolve (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:38:12)
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:31:21)
+    at Promise.resolve.then.el (/projects/challenge/node_modules/p-map/index.js:46:16)
+    at &lt;anonymous&gt;
+    at process._tickCallback (internal/process/next_tick.js:189:7)" type="AssertionError">
+      </failure>
+      <failure message="TypeError: Cannot read property &apos;name&apos; of undefined
+    at ViewPatient.render (/projects/challenge/src/pages/ViewPatient.jsx:42:224)
+    at ReactShallowRenderer._mountClassComponent (/projects/challenge/node_modules/react-test-renderer/cjs/react-test-renderer-shallow.development.js:883:37)
+    at ReactShallowRenderer.render (/projects/challenge/node_modules/react-test-renderer/cjs/react-test-renderer-shallow.development.js:800:14)
+    at renderElement (/projects/challenge/node_modules/enzyme-adapter-react-16/build/ReactSixteenAdapter.js:786:42)
+    at /projects/challenge/node_modules/enzyme-adapter-react-16/build/ReactSixteenAdapter.js:923:22
+    at withSetStateAllowed (/projects/challenge/node_modules/enzyme-adapter-utils/build/Utils.js:178:16)
+    at Object.render (/projects/challenge/node_modules/enzyme-adapter-react-16/build/ReactSixteenAdapter.js:922:64)
+    at new ShallowWrapper (/projects/challenge/node_modules/enzyme/build/ShallowWrapper.js:424:22)
+    at shallow (/projects/challenge/node_modules/enzyme/build/shallow.js:21:10)
+    at Object.it (/projects/challenge/src/tests/ViewPatient.test.js:39:34)
+    at Object.asyncFn (/projects/challenge/node_modules/jest-jasmine2/build/jasmine-async.js:68:30)
+    at resolve (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:38:12)
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:31:21)
+    at Promise.resolve.then.el (/projects/challenge/node_modules/p-map/index.js:46:16)
+    at &lt;anonymous&gt;
+    at process._tickCallback (internal/process/next_tick.js:189:7)" type="AssertionError">
+      </failure>
+    </testcase>
+    <testcase classname="testing ViewPatient" name="renders a location" time="0">
+      <failure message="TypeError: Cannot read property &apos;name&apos; of undefined
+    at ViewPatient.render (/projects/challenge/src/pages/ViewPatient.jsx:42:224)
+    at ReactShallowRenderer._mountClassComponent (/projects/challenge/node_modules/react-test-renderer/cjs/react-test-renderer-shallow.development.js:883:37)
+    at ReactShallowRenderer.render (/projects/challenge/node_modules/react-test-renderer/cjs/react-test-renderer-shallow.development.js:800:14)
+    at renderElement (/projects/challenge/node_modules/enzyme-adapter-react-16/build/ReactSixteenAdapter.js:786:42)
+    at /projects/challenge/node_modules/enzyme-adapter-react-16/build/ReactSixteenAdapter.js:923:22
+    at withSetStateAllowed (/projects/challenge/node_modules/enzyme-adapter-utils/build/Utils.js:178:16)
+    at Object.render (/projects/challenge/node_modules/enzyme-adapter-react-16/build/ReactSixteenAdapter.js:922:64)
+    at new ShallowWrapper (/projects/challenge/node_modules/enzyme/build/ShallowWrapper.js:424:22)
+    at shallow (/projects/challenge/node_modules/enzyme/build/shallow.js:21:10)
+    at Object.beforeEach (/projects/challenge/src/tests/ViewPatient.test.js:18:51)
+    at Object.asyncFn (/projects/challenge/node_modules/jest-jasmine2/build/jasmine-async.js:38:30)
+    at resolve (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:38:12)
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:31:21)
+    at Promise.resolve.then.el (/projects/challenge/node_modules/p-map/index.js:46:16)
+    at &lt;anonymous&gt;
+    at process._tickCallback (internal/process/next_tick.js:189:7)" type="AssertionError">
+      </failure>
+      <failure message="TypeError: Cannot read property &apos;name&apos; of undefined
+    at ViewPatient.render (/projects/challenge/src/pages/ViewPatient.jsx:42:224)
+    at ReactShallowRenderer._mountClassComponent (/projects/challenge/node_modules/react-test-renderer/cjs/react-test-renderer-shallow.development.js:883:37)
+    at ReactShallowRenderer.render (/projects/challenge/node_modules/react-test-renderer/cjs/react-test-renderer-shallow.development.js:800:14)
+    at renderElement (/projects/challenge/node_modules/enzyme-adapter-react-16/build/ReactSixteenAdapter.js:786:42)
+    at /projects/challenge/node_modules/enzyme-adapter-react-16/build/ReactSixteenAdapter.js:923:22
+    at withSetStateAllowed (/projects/challenge/node_modules/enzyme-adapter-utils/build/Utils.js:178:16)
+    at Object.render (/projects/challenge/node_modules/enzyme-adapter-react-16/build/ReactSixteenAdapter.js:922:64)
+    at new ShallowWrapper (/projects/challenge/node_modules/enzyme/build/ShallowWrapper.js:424:22)
+    at shallow (/projects/challenge/node_modules/enzyme/build/shallow.js:21:10)
+    at Object.it (/projects/challenge/src/tests/ViewPatient.test.js:42:34)
+    at Object.asyncFn (/projects/challenge/node_modules/jest-jasmine2/build/jasmine-async.js:68:30)
+    at resolve (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:38:12)
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:31:21)
+    at Promise.resolve.then.el (/projects/challenge/node_modules/p-map/index.js:46:16)
+    at &lt;anonymous&gt;
+    at process._tickCallback (internal/process/next_tick.js:189:7)" type="AssertionError">
+      </failure>
+    </testcase>
+    <testcase classname="testing ViewPatient" name="renders a mobile" time="0">
+      <failure message="TypeError: Cannot read property &apos;name&apos; of undefined
+    at ViewPatient.render (/projects/challenge/src/pages/ViewPatient.jsx:42:224)
+    at ReactShallowRenderer._mountClassComponent (/projects/challenge/node_modules/react-test-renderer/cjs/react-test-renderer-shallow.development.js:883:37)
+    at ReactShallowRenderer.render (/projects/challenge/node_modules/react-test-renderer/cjs/react-test-renderer-shallow.development.js:800:14)
+    at renderElement (/projects/challenge/node_modules/enzyme-adapter-react-16/build/ReactSixteenAdapter.js:786:42)
+    at /projects/challenge/node_modules/enzyme-adapter-react-16/build/ReactSixteenAdapter.js:923:22
+    at withSetStateAllowed (/projects/challenge/node_modules/enzyme-adapter-utils/build/Utils.js:178:16)
+    at Object.render (/projects/challenge/node_modules/enzyme-adapter-react-16/build/ReactSixteenAdapter.js:922:64)
+    at new ShallowWrapper (/projects/challenge/node_modules/enzyme/build/ShallowWrapper.js:424:22)
+    at shallow (/projects/challenge/node_modules/enzyme/build/shallow.js:21:10)
+    at Object.beforeEach (/projects/challenge/src/tests/ViewPatient.test.js:18:51)
+    at Object.asyncFn (/projects/challenge/node_modules/jest-jasmine2/build/jasmine-async.js:38:30)
+    at resolve (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:38:12)
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:31:21)
+    at Promise.resolve.then.el (/projects/challenge/node_modules/p-map/index.js:46:16)
+    at &lt;anonymous&gt;
+    at process._tickCallback (internal/process/next_tick.js:189:7)" type="AssertionError">
+      </failure>
+      <failure message="TypeError: Cannot read property &apos;name&apos; of undefined
+    at ViewPatient.render (/projects/challenge/src/pages/ViewPatient.jsx:42:224)
+    at ReactShallowRenderer._mountClassComponent (/projects/challenge/node_modules/react-test-renderer/cjs/react-test-renderer-shallow.development.js:883:37)
+    at ReactShallowRenderer.render (/projects/challenge/node_modules/react-test-renderer/cjs/react-test-renderer-shallow.development.js:800:14)
+    at renderElement (/projects/challenge/node_modules/enzyme-adapter-react-16/build/ReactSixteenAdapter.js:786:42)
+    at /projects/challenge/node_modules/enzyme-adapter-react-16/build/ReactSixteenAdapter.js:923:22
+    at withSetStateAllowed (/projects/challenge/node_modules/enzyme-adapter-utils/build/Utils.js:178:16)
+    at Object.render (/projects/challenge/node_modules/enzyme-adapter-react-16/build/ReactSixteenAdapter.js:922:64)
+    at new ShallowWrapper (/projects/challenge/node_modules/enzyme/build/ShallowWrapper.js:424:22)
+    at shallow (/projects/challenge/node_modules/enzyme/build/shallow.js:21:10)
+    at Object.it (/projects/challenge/src/tests/ViewPatient.test.js:45:34)
+    at Object.asyncFn (/projects/challenge/node_modules/jest-jasmine2/build/jasmine-async.js:68:30)
+    at resolve (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:38:12)
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:31:21)
+    at Promise.resolve.then.el (/projects/challenge/node_modules/p-map/index.js:46:16)
+    at &lt;anonymous&gt;
+    at process._tickCallback (internal/process/next_tick.js:189:7)" type="AssertionError">
+      </failure>
+    </testcase>
+    <system-out/>
+    <system-err/>
+  </testsuite>
+  <testsuite id="2" name="/projects/challenge/src/tests/ViewAppointment.test.js" errors="0" package="/projects/challenge/src/tests/ViewAppointment.test.js" hostname="localhost" tests="7" failures="7" time="17.886" timestamp="2021-11-26T23:10:32">
+    <properties>
+    </properties>
+    <testcase classname="testing ViewAppointment" name="should render eight &lt;div/&gt;" time="0">
+      <failure message="TypeError: Cannot read property &apos;name&apos; of undefined
+    at ViewAppointment.render (/projects/challenge/src/pages/ViewAppointment.jsx:46:230)
+    at ReactShallowRenderer._mountClassComponent (/projects/challenge/node_modules/react-test-renderer/cjs/react-test-renderer-shallow.development.js:883:37)
+    at ReactShallowRenderer.render (/projects/challenge/node_modules/react-test-renderer/cjs/react-test-renderer-shallow.development.js:800:14)
+    at renderElement (/projects/challenge/node_modules/enzyme-adapter-react-16/build/ReactSixteenAdapter.js:786:42)
+    at /projects/challenge/node_modules/enzyme-adapter-react-16/build/ReactSixteenAdapter.js:923:22
+    at withSetStateAllowed (/projects/challenge/node_modules/enzyme-adapter-utils/build/Utils.js:178:16)
+    at Object.render (/projects/challenge/node_modules/enzyme-adapter-react-16/build/ReactSixteenAdapter.js:922:64)
+    at new ShallowWrapper (/projects/challenge/node_modules/enzyme/build/ShallowWrapper.js:424:22)
+    at shallow (/projects/challenge/node_modules/enzyme/build/shallow.js:21:10)
+    at Object.beforeEach (/projects/challenge/src/tests/ViewAppointment.test.js:17:50)
+    at Object.asyncFn (/projects/challenge/node_modules/jest-jasmine2/build/jasmine-async.js:38:30)
+    at resolve (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:38:12)
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:31:21)
+    at Promise.resolve.then.el (/projects/challenge/node_modules/p-map/index.js:46:16)
+    at &lt;anonymous&gt;
+    at process._tickCallback (internal/process/next_tick.js:189:7)" type="AssertionError">
+      </failure>
+      <failure message="TypeError: Cannot read property &apos;find&apos; of undefined
+    at Object.it (/projects/challenge/src/tests/ViewAppointment.test.js:20:20)
+    at Object.asyncFn (/projects/challenge/node_modules/jest-jasmine2/build/jasmine-async.js:68:30)
+    at resolve (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:38:12)
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:31:21)
+    at Promise.resolve.then.el (/projects/challenge/node_modules/p-map/index.js:46:16)
+    at &lt;anonymous&gt;
+    at process._tickCallback (internal/process/next_tick.js:189:7)" type="AssertionError">
+      </failure>
+    </testcase>
+    <testcase classname="testing ViewAppointment" name="should render five labels &lt;label/&gt;" time="0">
+      <failure message="TypeError: Cannot read property &apos;name&apos; of undefined
+    at ViewAppointment.render (/projects/challenge/src/pages/ViewAppointment.jsx:46:230)
+    at ReactShallowRenderer._mountClassComponent (/projects/challenge/node_modules/react-test-renderer/cjs/react-test-renderer-shallow.development.js:883:37)
+    at ReactShallowRenderer.render (/projects/challenge/node_modules/react-test-renderer/cjs/react-test-renderer-shallow.development.js:800:14)
+    at renderElement (/projects/challenge/node_modules/enzyme-adapter-react-16/build/ReactSixteenAdapter.js:786:42)
+    at /projects/challenge/node_modules/enzyme-adapter-react-16/build/ReactSixteenAdapter.js:923:22
+    at withSetStateAllowed (/projects/challenge/node_modules/enzyme-adapter-utils/build/Utils.js:178:16)
+    at Object.render (/projects/challenge/node_modules/enzyme-adapter-react-16/build/ReactSixteenAdapter.js:922:64)
+    at new ShallowWrapper (/projects/challenge/node_modules/enzyme/build/ShallowWrapper.js:424:22)
+    at shallow (/projects/challenge/node_modules/enzyme/build/shallow.js:21:10)
+    at Object.beforeEach (/projects/challenge/src/tests/ViewAppointment.test.js:17:50)
+    at Object.asyncFn (/projects/challenge/node_modules/jest-jasmine2/build/jasmine-async.js:38:30)
+    at resolve (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:38:12)
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:31:21)
+    at Promise.resolve.then.el (/projects/challenge/node_modules/p-map/index.js:46:16)
+    at &lt;anonymous&gt;
+    at process._tickCallback (internal/process/next_tick.js:189:7)" type="AssertionError">
+      </failure>
+      <failure message="TypeError: Cannot read property &apos;find&apos; of undefined
+    at Object.it (/projects/challenge/src/tests/ViewAppointment.test.js:26:20)
+    at Object.asyncFn (/projects/challenge/node_modules/jest-jasmine2/build/jasmine-async.js:68:30)
+    at resolve (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:38:12)
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:31:21)
+    at Promise.resolve.then.el (/projects/challenge/node_modules/p-map/index.js:46:16)
+    at &lt;anonymous&gt;
+    at process._tickCallback (internal/process/next_tick.js:189:7)" type="AssertionError">
+      </failure>
+    </testcase>
+    <testcase classname="testing ViewAppointment" name="renders a name input" time="0">
+      <failure message="TypeError: Cannot read property &apos;name&apos; of undefined
+    at ViewAppointment.render (/projects/challenge/src/pages/ViewAppointment.jsx:46:230)
+    at ReactShallowRenderer._mountClassComponent (/projects/challenge/node_modules/react-test-renderer/cjs/react-test-renderer-shallow.development.js:883:37)
+    at ReactShallowRenderer.render (/projects/challenge/node_modules/react-test-renderer/cjs/react-test-renderer-shallow.development.js:800:14)
+    at renderElement (/projects/challenge/node_modules/enzyme-adapter-react-16/build/ReactSixteenAdapter.js:786:42)
+    at /projects/challenge/node_modules/enzyme-adapter-react-16/build/ReactSixteenAdapter.js:923:22
+    at withSetStateAllowed (/projects/challenge/node_modules/enzyme-adapter-utils/build/Utils.js:178:16)
+    at Object.render (/projects/challenge/node_modules/enzyme-adapter-react-16/build/ReactSixteenAdapter.js:922:64)
+    at new ShallowWrapper (/projects/challenge/node_modules/enzyme/build/ShallowWrapper.js:424:22)
+    at shallow (/projects/challenge/node_modules/enzyme/build/shallow.js:21:10)
+    at Object.beforeEach (/projects/challenge/src/tests/ViewAppointment.test.js:17:50)
+    at Object.asyncFn (/projects/challenge/node_modules/jest-jasmine2/build/jasmine-async.js:38:30)
+    at resolve (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:38:12)
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:31:21)
+    at Promise.resolve.then.el (/projects/challenge/node_modules/p-map/index.js:46:16)
+    at &lt;anonymous&gt;
+    at process._tickCallback (internal/process/next_tick.js:189:7)" type="AssertionError">
+      </failure>
+      <failure message="TypeError: Cannot read property &apos;name&apos; of undefined
+    at ViewAppointment.render (/projects/challenge/src/pages/ViewAppointment.jsx:46:230)
+    at ReactShallowRenderer._mountClassComponent (/projects/challenge/node_modules/react-test-renderer/cjs/react-test-renderer-shallow.development.js:883:37)
+    at ReactShallowRenderer.render (/projects/challenge/node_modules/react-test-renderer/cjs/react-test-renderer-shallow.development.js:800:14)
+    at renderElement (/projects/challenge/node_modules/enzyme-adapter-react-16/build/ReactSixteenAdapter.js:786:42)
+    at /projects/challenge/node_modules/enzyme-adapter-react-16/build/ReactSixteenAdapter.js:923:22
+    at withSetStateAllowed (/projects/challenge/node_modules/enzyme-adapter-utils/build/Utils.js:178:16)
+    at Object.render (/projects/challenge/node_modules/enzyme-adapter-react-16/build/ReactSixteenAdapter.js:922:64)
+    at new ShallowWrapper (/projects/challenge/node_modules/enzyme/build/ShallowWrapper.js:424:22)
+    at shallow (/projects/challenge/node_modules/enzyme/build/shallow.js:21:10)
+    at Object.it (/projects/challenge/src/tests/ViewAppointment.test.js:29:32)
+    at Object.asyncFn (/projects/challenge/node_modules/jest-jasmine2/build/jasmine-async.js:68:30)
+    at resolve (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:38:12)
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:31:21)
+    at Promise.resolve.then.el (/projects/challenge/node_modules/p-map/index.js:46:16)
+    at &lt;anonymous&gt;
+    at process._tickCallback (internal/process/next_tick.js:189:7)" type="AssertionError">
+      </failure>
+    </testcase>
+    <testcase classname="testing ViewAppointment" name="renders a disease" time="0">
+      <failure message="TypeError: Cannot read property &apos;name&apos; of undefined
+    at ViewAppointment.render (/projects/challenge/src/pages/ViewAppointment.jsx:46:230)
+    at ReactShallowRenderer._mountClassComponent (/projects/challenge/node_modules/react-test-renderer/cjs/react-test-renderer-shallow.development.js:883:37)
+    at ReactShallowRenderer.render (/projects/challenge/node_modules/react-test-renderer/cjs/react-test-renderer-shallow.development.js:800:14)
+    at renderElement (/projects/challenge/node_modules/enzyme-adapter-react-16/build/ReactSixteenAdapter.js:786:42)
+    at /projects/challenge/node_modules/enzyme-adapter-react-16/build/ReactSixteenAdapter.js:923:22
+    at withSetStateAllowed (/projects/challenge/node_modules/enzyme-adapter-utils/build/Utils.js:178:16)
+    at Object.render (/projects/challenge/node_modules/enzyme-adapter-react-16/build/ReactSixteenAdapter.js:922:64)
+    at new ShallowWrapper (/projects/challenge/node_modules/enzyme/build/ShallowWrapper.js:424:22)
+    at shallow (/projects/challenge/node_modules/enzyme/build/shallow.js:21:10)
+    at Object.beforeEach (/projects/challenge/src/tests/ViewAppointment.test.js:17:50)
+    at Object.asyncFn (/projects/challenge/node_modules/jest-jasmine2/build/jasmine-async.js:38:30)
+    at resolve (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:38:12)
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:31:21)
+    at Promise.resolve.then.el (/projects/challenge/node_modules/p-map/index.js:46:16)
+    at &lt;anonymous&gt;
+    at process._tickCallback (internal/process/next_tick.js:189:7)" type="AssertionError">
+      </failure>
+      <failure message="TypeError: Cannot read property &apos;name&apos; of undefined
+    at ViewAppointment.render (/projects/challenge/src/pages/ViewAppointment.jsx:46:230)
+    at ReactShallowRenderer._mountClassComponent (/projects/challenge/node_modules/react-test-renderer/cjs/react-test-renderer-shallow.development.js:883:37)
+    at ReactShallowRenderer.render (/projects/challenge/node_modules/react-test-renderer/cjs/react-test-renderer-shallow.development.js:800:14)
+    at renderElement (/projects/challenge/node_modules/enzyme-adapter-react-16/build/ReactSixteenAdapter.js:786:42)
+    at /projects/challenge/node_modules/enzyme-adapter-react-16/build/ReactSixteenAdapter.js:923:22
+    at withSetStateAllowed (/projects/challenge/node_modules/enzyme-adapter-utils/build/Utils.js:178:16)
+    at Object.render (/projects/challenge/node_modules/enzyme-adapter-react-16/build/ReactSixteenAdapter.js:922:64)
+    at new ShallowWrapper (/projects/challenge/node_modules/enzyme/build/ShallowWrapper.js:424:22)
+    at shallow (/projects/challenge/node_modules/enzyme/build/shallow.js:21:10)
+    at Object.it (/projects/challenge/src/tests/ViewAppointment.test.js:32:32)
+    at Object.asyncFn (/projects/challenge/node_modules/jest-jasmine2/build/jasmine-async.js:68:30)
+    at resolve (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:38:12)
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:31:21)
+    at Promise.resolve.then.el (/projects/challenge/node_modules/p-map/index.js:46:16)
+    at &lt;anonymous&gt;
+    at process._tickCallback (internal/process/next_tick.js:189:7)" type="AssertionError">
+      </failure>
+    </testcase>
+    <testcase classname="testing ViewAppointment" name="renders a appdate" time="0">
+      <failure message="TypeError: Cannot read property &apos;name&apos; of undefined
+    at ViewAppointment.render (/projects/challenge/src/pages/ViewAppointment.jsx:46:230)
+    at ReactShallowRenderer._mountClassComponent (/projects/challenge/node_modules/react-test-renderer/cjs/react-test-renderer-shallow.development.js:883:37)
+    at ReactShallowRenderer.render (/projects/challenge/node_modules/react-test-renderer/cjs/react-test-renderer-shallow.development.js:800:14)
+    at renderElement (/projects/challenge/node_modules/enzyme-adapter-react-16/build/ReactSixteenAdapter.js:786:42)
+    at /projects/challenge/node_modules/enzyme-adapter-react-16/build/ReactSixteenAdapter.js:923:22
+    at withSetStateAllowed (/projects/challenge/node_modules/enzyme-adapter-utils/build/Utils.js:178:16)
+    at Object.render (/projects/challenge/node_modules/enzyme-adapter-react-16/build/ReactSixteenAdapter.js:922:64)
+    at new ShallowWrapper (/projects/challenge/node_modules/enzyme/build/ShallowWrapper.js:424:22)
+    at shallow (/projects/challenge/node_modules/enzyme/build/shallow.js:21:10)
+    at Object.beforeEach (/projects/challenge/src/tests/ViewAppointment.test.js:17:50)
+    at Object.asyncFn (/projects/challenge/node_modules/jest-jasmine2/build/jasmine-async.js:38:30)
+    at resolve (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:38:12)
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:31:21)
+    at Promise.resolve.then.el (/projects/challenge/node_modules/p-map/index.js:46:16)
+    at &lt;anonymous&gt;
+    at process._tickCallback (internal/process/next_tick.js:189:7)" type="AssertionError">
+      </failure>
+      <failure message="TypeError: Cannot read property &apos;name&apos; of undefined
+    at ViewAppointment.render (/projects/challenge/src/pages/ViewAppointment.jsx:46:230)
+    at ReactShallowRenderer._mountClassComponent (/projects/challenge/node_modules/react-test-renderer/cjs/react-test-renderer-shallow.development.js:883:37)
+    at ReactShallowRenderer.render (/projects/challenge/node_modules/react-test-renderer/cjs/react-test-renderer-shallow.development.js:800:14)
+    at renderElement (/projects/challenge/node_modules/enzyme-adapter-react-16/build/ReactSixteenAdapter.js:786:42)
+    at /projects/challenge/node_modules/enzyme-adapter-react-16/build/ReactSixteenAdapter.js:923:22
+    at withSetStateAllowed (/projects/challenge/node_modules/enzyme-adapter-utils/build/Utils.js:178:16)
+    at Object.render (/projects/challenge/node_modules/enzyme-adapter-react-16/build/ReactSixteenAdapter.js:922:64)
+    at new ShallowWrapper (/projects/challenge/node_modules/enzyme/build/ShallowWrapper.js:424:22)
+    at shallow (/projects/challenge/node_modules/enzyme/build/shallow.js:21:10)
+    at Object.it (/projects/challenge/src/tests/ViewAppointment.test.js:35:32)
+    at Object.asyncFn (/projects/challenge/node_modules/jest-jasmine2/build/jasmine-async.js:68:30)
+    at resolve (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:38:12)
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:31:21)
+    at Promise.resolve.then.el (/projects/challenge/node_modules/p-map/index.js:46:16)
+    at &lt;anonymous&gt;
+    at process._tickCallback (internal/process/next_tick.js:189:7)" type="AssertionError">
+      </failure>
+    </testcase>
+    <testcase classname="testing ViewAppointment" name="renders a slot" time="0">
+      <failure message="TypeError: Cannot read property &apos;name&apos; of undefined
+    at ViewAppointment.render (/projects/challenge/src/pages/ViewAppointment.jsx:46:230)
+    at ReactShallowRenderer._mountClassComponent (/projects/challenge/node_modules/react-test-renderer/cjs/react-test-renderer-shallow.development.js:883:37)
+    at ReactShallowRenderer.render (/projects/challenge/node_modules/react-test-renderer/cjs/react-test-renderer-shallow.development.js:800:14)
+    at renderElement (/projects/challenge/node_modules/enzyme-adapter-react-16/build/ReactSixteenAdapter.js:786:42)
+    at /projects/challenge/node_modules/enzyme-adapter-react-16/build/ReactSixteenAdapter.js:923:22
+    at withSetStateAllowed (/projects/challenge/node_modules/enzyme-adapter-utils/build/Utils.js:178:16)
+    at Object.render (/projects/challenge/node_modules/enzyme-adapter-react-16/build/ReactSixteenAdapter.js:922:64)
+    at new ShallowWrapper (/projects/challenge/node_modules/enzyme/build/ShallowWrapper.js:424:22)
+    at shallow (/projects/challenge/node_modules/enzyme/build/shallow.js:21:10)
+    at Object.beforeEach (/projects/challenge/src/tests/ViewAppointment.test.js:17:50)
+    at Object.asyncFn (/projects/challenge/node_modules/jest-jasmine2/build/jasmine-async.js:38:30)
+    at resolve (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:38:12)
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:31:21)
+    at Promise.resolve.then.el (/projects/challenge/node_modules/p-map/index.js:46:16)
+    at &lt;anonymous&gt;
+    at process._tickCallback (internal/process/next_tick.js:189:7)" type="AssertionError">
+      </failure>
+      <failure message="TypeError: Cannot read property &apos;name&apos; of undefined
+    at ViewAppointment.render (/projects/challenge/src/pages/ViewAppointment.jsx:46:230)
+    at ReactShallowRenderer._mountClassComponent (/projects/challenge/node_modules/react-test-renderer/cjs/react-test-renderer-shallow.development.js:883:37)
+    at ReactShallowRenderer.render (/projects/challenge/node_modules/react-test-renderer/cjs/react-test-renderer-shallow.development.js:800:14)
+    at renderElement (/projects/challenge/node_modules/enzyme-adapter-react-16/build/ReactSixteenAdapter.js:786:42)
+    at /projects/challenge/node_modules/enzyme-adapter-react-16/build/ReactSixteenAdapter.js:923:22
+    at withSetStateAllowed (/projects/challenge/node_modules/enzyme-adapter-utils/build/Utils.js:178:16)
+    at Object.render (/projects/challenge/node_modules/enzyme-adapter-react-16/build/ReactSixteenAdapter.js:922:64)
+    at new ShallowWrapper (/projects/challenge/node_modules/enzyme/build/ShallowWrapper.js:424:22)
+    at shallow (/projects/challenge/node_modules/enzyme/build/shallow.js:21:10)
+    at Object.it (/projects/challenge/src/tests/ViewAppointment.test.js:38:32)
+    at Object.asyncFn (/projects/challenge/node_modules/jest-jasmine2/build/jasmine-async.js:68:30)
+    at resolve (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:38:12)
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:31:21)
+    at Promise.resolve.then.el (/projects/challenge/node_modules/p-map/index.js:46:16)
+    at &lt;anonymous&gt;
+    at process._tickCallback (internal/process/next_tick.js:189:7)" type="AssertionError">
+      </failure>
+    </testcase>
+    <testcase classname="testing ViewAppointment" name="renders a description" time="0">
+      <failure message="TypeError: Cannot read property &apos;name&apos; of undefined
+    at ViewAppointment.render (/projects/challenge/src/pages/ViewAppointment.jsx:46:230)
+    at ReactShallowRenderer._mountClassComponent (/projects/challenge/node_modules/react-test-renderer/cjs/react-test-renderer-shallow.development.js:883:37)
+    at ReactShallowRenderer.render (/projects/challenge/node_modules/react-test-renderer/cjs/react-test-renderer-shallow.development.js:800:14)
+    at renderElement (/projects/challenge/node_modules/enzyme-adapter-react-16/build/ReactSixteenAdapter.js:786:42)
+    at /projects/challenge/node_modules/enzyme-adapter-react-16/build/ReactSixteenAdapter.js:923:22
+    at withSetStateAllowed (/projects/challenge/node_modules/enzyme-adapter-utils/build/Utils.js:178:16)
+    at Object.render (/projects/challenge/node_modules/enzyme-adapter-react-16/build/ReactSixteenAdapter.js:922:64)
+    at new ShallowWrapper (/projects/challenge/node_modules/enzyme/build/ShallowWrapper.js:424:22)
+    at shallow (/projects/challenge/node_modules/enzyme/build/shallow.js:21:10)
+    at Object.beforeEach (/projects/challenge/src/tests/ViewAppointment.test.js:17:50)
+    at Object.asyncFn (/projects/challenge/node_modules/jest-jasmine2/build/jasmine-async.js:38:30)
+    at resolve (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:38:12)
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:31:21)
+    at Promise.resolve.then.el (/projects/challenge/node_modules/p-map/index.js:46:16)
+    at &lt;anonymous&gt;
+    at process._tickCallback (internal/process/next_tick.js:189:7)" type="AssertionError">
+      </failure>
+      <failure message="TypeError: Cannot read property &apos;name&apos; of undefined
+    at ViewAppointment.render (/projects/challenge/src/pages/ViewAppointment.jsx:46:230)
+    at ReactShallowRenderer._mountClassComponent (/projects/challenge/node_modules/react-test-renderer/cjs/react-test-renderer-shallow.development.js:883:37)
+    at ReactShallowRenderer.render (/projects/challenge/node_modules/react-test-renderer/cjs/react-test-renderer-shallow.development.js:800:14)
+    at renderElement (/projects/challenge/node_modules/enzyme-adapter-react-16/build/ReactSixteenAdapter.js:786:42)
+    at /projects/challenge/node_modules/enzyme-adapter-react-16/build/ReactSixteenAdapter.js:923:22
+    at withSetStateAllowed (/projects/challenge/node_modules/enzyme-adapter-utils/build/Utils.js:178:16)
+    at Object.render (/projects/challenge/node_modules/enzyme-adapter-react-16/build/ReactSixteenAdapter.js:922:64)
+    at new ShallowWrapper (/projects/challenge/node_modules/enzyme/build/ShallowWrapper.js:424:22)
+    at shallow (/projects/challenge/node_modules/enzyme/build/shallow.js:21:10)
+    at Object.it (/projects/challenge/src/tests/ViewAppointment.test.js:41:32)
+    at Object.asyncFn (/projects/challenge/node_modules/jest-jasmine2/build/jasmine-async.js:68:30)
+    at resolve (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:38:12)
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:31:21)
+    at Promise.resolve.then.el (/projects/challenge/node_modules/p-map/index.js:46:16)
+    at &lt;anonymous&gt;
+    at process._tickCallback (internal/process/next_tick.js:189:7)" type="AssertionError">
+      </failure>
+    </testcase>
+    <system-out/>
+    <system-err/>
+  </testsuite>
+  <testsuite id="3" name="/projects/challenge/src/tests/AddPatient.test.js" errors="0" package="/projects/challenge/src/tests/AddPatient.test.js" hostname="localhost" tests="14" failures="2" time="18.792" timestamp="2021-11-26T23:10:31">
+    <properties>
+    </properties>
+    <testcase classname="testing add patient" name="should render eight &lt;div/&gt;" time="0">
+    </testcase>
+    <testcase classname="testing add patient" name="should set the state values" time="0">
+    </testcase>
+    <testcase classname="testing add patient" name="should render five labels &lt;label/&gt;" time="0">
+    </testcase>
+    <testcase classname="testing add patient" name="should render five inputs &lt;input/&gt;" time="0">
+    </testcase>
+    <testcase classname="testing add patient" name="renders a name input" time="0">
+    </testcase>
+    <testcase classname="testing add patient" name="renders a name email" time="0">
+    </testcase>
+    <testcase classname="testing add patient" name="renders a name dob" time="0">
+    </testcase>
+    <testcase classname="testing add patient" name="renders a name location" time="0">
+    </testcase>
+    <testcase classname="testing add patient" name="renders a name mobile" time="0">
+      <failure message="Error: expect(received).toEqual(expected)
+
+Expected value to equal:
+  1
+Received:
+  0
+    at Object.it (/projects/challenge/src/tests/AddPatient.test.js:53:191)
+    at Object.asyncFn (/projects/challenge/node_modules/jest-jasmine2/build/jasmine-async.js:68:30)
+    at resolve (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:38:12)
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:31:21)
+    at Promise.resolve.then.el (/projects/challenge/node_modules/p-map/index.js:46:16)
+    at &lt;anonymous&gt;
+    at process._tickCallback (internal/process/next_tick.js:189:7)" type="AssertionError">
+      </failure>
+    </testcase>
+    <testcase classname="testing add patient" name="should change the name state of adding patient" time="0">
+    </testcase>
+    <testcase classname="testing add patient" name="should change the email state of adding patient" time="0">
+    </testcase>
+    <testcase classname="testing add patient" name="should change the dob state of adding patient" time="0">
+    </testcase>
+    <testcase classname="testing add patient" name="should change the location state of adding patient" time="0">
+    </testcase>
+    <testcase classname="testing add patient" name="should change the mobileno state of adding patient" time="0">
+      <failure message="Error: Method “simulate” is meant to be run on 1 node. 0 found instead.
+    at ShallowWrapper.single (/projects/challenge/node_modules/enzyme/build/ShallowWrapper.js:2197:17)
+    at ShallowWrapper.simulate (/projects/challenge/node_modules/enzyme/build/ShallowWrapper.js:1371:21)
+    at Object.it (/projects/challenge/src/tests/AddPatient.test.js:72:33)
+    at Object.asyncFn (/projects/challenge/node_modules/jest-jasmine2/build/jasmine-async.js:68:30)
+    at resolve (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:38:12)
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:31:21)
+    at Promise.resolve.then.el (/projects/challenge/node_modules/p-map/index.js:46:16)
+    at &lt;anonymous&gt;
+    at process._tickCallback (internal/process/next_tick.js:189:7)" type="AssertionError">
+      </failure>
+    </testcase>
+    <system-out/>
+    <system-err/>
+  </testsuite>
+  <testsuite id="4" name="/projects/challenge/src/tests/BookAppointment.test.js" errors="0" package="/projects/challenge/src/tests/BookAppointment.test.js" hostname="localhost" tests="13" failures="0" time="19.104" timestamp="2021-11-26T23:10:31">
+    <properties>
+    </properties>
+    <testcase classname="testing BookAppointment" name="should render eight &lt;div/&gt;" time="0">
+    </testcase>
+    <testcase classname="testing BookAppointment" name="should set the state values" time="0">
+    </testcase>
+    <testcase classname="testing BookAppointment" name="should render five labels &lt;label/&gt;" time="0">
+    </testcase>
+    <testcase classname="testing BookAppointment" name="should render three inputs &lt;input/&gt;" time="0">
+    </testcase>
+    <testcase classname="testing BookAppointment" name="should render two selects &lt;select/&gt;" time="0">
+    </testcase>
+    <testcase classname="testing BookAppointment" name="renders a name input" time="0">
+    </testcase>
+    <testcase classname="testing BookAppointment" name="renders a name disease" time="0">
+    </testcase>
+    <testcase classname="testing BookAppointment" name="renders a name appdate" time="0">
+    </testcase>
+    <testcase classname="testing BookAppointment" name="renders a name slot" time="0">
+    </testcase>
+    <testcase classname="testing BookAppointment" name="renders a description" time="0">
+    </testcase>
+    <testcase classname="testing BookAppointment" name="should change the disease state of adding patient" time="0">
+    </testcase>
+    <testcase classname="testing BookAppointment" name="should change the appdate state of adding patient" time="0">
+    </testcase>
+    <testcase classname="testing BookAppointment" name="should change the description state of adding patient" time="0">
+    </testcase>
+    <system-out/>
+    <system-err/>
+  </testsuite>
+  <testsuite id="5" name="/projects/challenge/src/tests/EditAppointment.test.js" errors="0" package="/projects/challenge/src/tests/EditAppointment.test.js" hostname="localhost" tests="13" failures="0" time="19.098" timestamp="2021-11-26T23:10:31">
+    <properties>
+    </properties>
+    <testcase classname="testing EditAppointment" name="should render eight &lt;div/&gt;" time="0">
+    </testcase>
+    <testcase classname="testing EditAppointment" name="should render five labels &lt;label/&gt;" time="0">
+    </testcase>
+    <testcase classname="testing EditAppointment" name="should render three inputs &lt;input/&gt;" time="0">
+    </testcase>
+    <testcase classname="testing EditAppointment" name="renders a name input" time="0">
+    </testcase>
+    <testcase classname="testing EditAppointment" name="renders a disease" time="0">
+    </testcase>
+    <testcase classname="testing EditAppointment" name="renders a appdate" time="0">
+    </testcase>
+    <testcase classname="testing EditAppointment" name="renders a slot" time="0">
+    </testcase>
+    <testcase classname="testing EditAppointment" name="renders a description" time="0">
+    </testcase>
+    <testcase classname="testing EditAppointment" name="should change the name state of adding patient" time="0">
+    </testcase>
+    <testcase classname="testing EditAppointment" name="should change the disease state of adding patient" time="0">
+    </testcase>
+    <testcase classname="testing EditAppointment" name="should change the appdate state of adding patient" time="0">
+    </testcase>
+    <testcase classname="testing EditAppointment" name="should change the slot state of adding patient" time="0">
+    </testcase>
+    <testcase classname="testing EditAppointment" name="should change the description state of adding patient" time="0">
+    </testcase>
+    <system-out/>
+    <system-err/>
+  </testsuite>
+  <testsuite id="6" name="/projects/challenge/src/tests/SignUpForm.test.js" errors="0" package="/projects/challenge/src/tests/SignUpForm.test.js" hostname="localhost" tests="16" failures="0" time="19.481" timestamp="2021-11-26T23:10:31">
+    <properties>
+    </properties>
+    <testcase classname="SignUpForm" name="should render eleven &lt;div /&gt;" time="0">
+    </testcase>
+    <testcase classname="SignUpForm" name="should render six &lt;label&gt;s" time="0">
+    </testcase>
+    <testcase classname="SignUpForm" name="should render six &lt;input&gt;s" time="0">
+    </testcase>
+    <testcase classname="SignUpForm" name="renders a uname input" time="0">
+    </testcase>
+    <testcase classname="SignUpForm" name="renders a email input" time="0">
+    </testcase>
+    <testcase classname="SignUpForm" name="renders a password input" time="0">
+    </testcase>
+    <testcase classname="SignUpForm" name="renders a dob input" time="0">
+    </testcase>
+    <testcase classname="SignUpForm" name="renders a mobileno input" time="0">
+    </testcase>
+    <testcase classname="SignUpForm" name="renders a location input" time="0">
+    </testcase>
+    <testcase classname="SignUpForm" name="should change the name state of login component" time="0">
+    </testcase>
+    <testcase classname="SignUpForm" name="should change the email state of login component" time="0">
+    </testcase>
+    <testcase classname="SignUpForm" name="should change the password state of login component" time="0">
+    </testcase>
+    <testcase classname="SignUpForm" name="should change the dob state of login component" time="0">
+    </testcase>
+    <testcase classname="SignUpForm" name="should change the mobileno state of login component" time="0">
+    </testcase>
+    <testcase classname="SignUpForm" name="should change the location state of login component" time="0">
+    </testcase>
+    <testcase classname="SignUpForm" name="valid path" time="0">
+    </testcase>
+    <system-out/>
+    <system-err/>
+  </testsuite>
+  <testsuite id="7" name="/projects/challenge/src/tests/ViewProfile.test.js" errors="0" package="/projects/challenge/src/tests/ViewProfile.test.js" hostname="localhost" tests="7" failures="7" time="1.503" timestamp="2021-11-26T23:10:49">
+    <properties>
+    </properties>
+    <testcase classname="testing ViewProfile" name="should render nine &lt;div/&gt;" time="0">
+      <failure message="Error: expect(received).toEqual(expected)
+
+Expected value to equal:
+  9
+Received:
+  4
+    at Object.it (/projects/challenge/src/tests/ViewProfile.test.js:18:40)
+    at Object.asyncFn (/projects/challenge/node_modules/jest-jasmine2/build/jasmine-async.js:68:30)
+    at resolve (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:38:12)
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:31:21)
+    at Promise.resolve.then.el (/projects/challenge/node_modules/p-map/index.js:46:16)
+    at &lt;anonymous&gt;
+    at process._tickCallback (internal/process/next_tick.js:189:7)" type="AssertionError">
+      </failure>
+    </testcase>
+    <testcase classname="testing ViewProfile" name="should render five span &lt;span/&gt;" time="0">
+      <failure message="Error: expect(received).toEqual(expected)
+
+Expected value to equal:
+  5
+Received:
+  0
+    at Object.it (/projects/challenge/src/tests/ViewProfile.test.js:24:41)
+    at Object.asyncFn (/projects/challenge/node_modules/jest-jasmine2/build/jasmine-async.js:68:30)
+    at resolve (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:38:12)
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:31:21)
+    at Promise.resolve.then.el (/projects/challenge/node_modules/p-map/index.js:46:16)
+    at &lt;anonymous&gt;
+    at process._tickCallback (internal/process/next_tick.js:189:7)" type="AssertionError">
+      </failure>
+    </testcase>
+    <testcase classname="testing ViewProfile" name="renders a name input" time="0">
+      <failure message="Error: expect(received).toEqual(expected)
+
+Expected value to equal:
+  1
+Received:
+  0
+    at Object.it (/projects/challenge/src/tests/ViewProfile.test.js:27:221)
+    at Object.asyncFn (/projects/challenge/node_modules/jest-jasmine2/build/jasmine-async.js:68:30)
+    at resolve (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:38:12)
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:31:21)
+    at Promise.resolve.then.el (/projects/challenge/node_modules/p-map/index.js:46:16)
+    at &lt;anonymous&gt;
+    at process._tickCallback (internal/process/next_tick.js:189:7)" type="AssertionError">
+      </failure>
+    </testcase>
+    <testcase classname="testing ViewProfile" name="renders a email" time="0">
+      <failure message="Error: expect(received).toEqual(expected)
+
+Expected value to equal:
+  1
+Received:
+  0
+    at Object.it (/projects/challenge/src/tests/ViewProfile.test.js:30:222)
+    at Object.asyncFn (/projects/challenge/node_modules/jest-jasmine2/build/jasmine-async.js:68:30)
+    at resolve (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:38:12)
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:31:21)
+    at Promise.resolve.then.el (/projects/challenge/node_modules/p-map/index.js:46:16)
+    at &lt;anonymous&gt;
+    at process._tickCallback (internal/process/next_tick.js:189:7)" type="AssertionError">
+      </failure>
+    </testcase>
+    <testcase classname="testing ViewProfile" name="renders a dob" time="0">
+      <failure message="Error: expect(received).toEqual(expected)
+
+Expected value to equal:
+  1
+Received:
+  0
+    at Object.it (/projects/challenge/src/tests/ViewProfile.test.js:33:220)
+    at Object.asyncFn (/projects/challenge/node_modules/jest-jasmine2/build/jasmine-async.js:68:30)
+    at resolve (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:38:12)
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:31:21)
+    at Promise.resolve.then.el (/projects/challenge/node_modules/p-map/index.js:46:16)
+    at &lt;anonymous&gt;
+    at process._tickCallback (internal/process/next_tick.js:189:7)" type="AssertionError">
+      </failure>
+    </testcase>
+    <testcase classname="testing ViewProfile" name="renders a location" time="0">
+      <failure message="Error: expect(received).toEqual(expected)
+
+Expected value to equal:
+  1
+Received:
+  0
+    at Object.it (/projects/challenge/src/tests/ViewProfile.test.js:36:225)
+    at Object.asyncFn (/projects/challenge/node_modules/jest-jasmine2/build/jasmine-async.js:68:30)
+    at resolve (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:38:12)
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:31:21)
+    at Promise.resolve.then.el (/projects/challenge/node_modules/p-map/index.js:46:16)
+    at &lt;anonymous&gt;
+    at process._tickCallback (internal/process/next_tick.js:189:7)" type="AssertionError">
+      </failure>
+    </testcase>
+    <testcase classname="testing ViewProfile" name="renders a mobile" time="0">
+      <failure message="Error: expect(received).toEqual(expected)
+
+Expected value to equal:
+  1
+Received:
+  0
+    at Object.it (/projects/challenge/src/tests/ViewProfile.test.js:39:225)
+    at Object.asyncFn (/projects/challenge/node_modules/jest-jasmine2/build/jasmine-async.js:68:30)
+    at resolve (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:38:12)
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:31:21)
+    at Promise.resolve.then.el (/projects/challenge/node_modules/p-map/index.js:46:16)
+    at &lt;anonymous&gt;
+    at process._tickCallback (internal/process/next_tick.js:189:7)" type="AssertionError">
+      </failure>
+    </testcase>
+    <system-out/>
+    <system-err/>
+  </testsuite>
+  <testsuite id="8" name="/projects/challenge/src/App.test.js" errors="0" package="/projects/challenge/src/App.test.js" hostname="localhost" tests="1" failures="0" time="0.995" timestamp="2021-11-26T23:10:50">
+    <properties>
+    </properties>
+    <testcase classname="renders without crashing" name="renders without crashing" time="0">
+    </testcase>
+    <system-out/>
+    <system-err/>
+  </testsuite>
+  <testsuite id="9" name="/projects/challenge/src/tests/NavBar.test.js" errors="0" package="/projects/challenge/src/tests/NavBar.test.js" hostname="localhost" tests="4" failures="4" time="1.509" timestamp="2021-11-26T23:10:49">
+    <properties>
+    </properties>
+    <testcase classname="testing NavBar component" name="checking the NavBar NavLink router content" time="0">
+      <failure message="Error: Method “props” is meant to be run on 1 node. 0 found instead.
+    at ShallowWrapper.single (/projects/challenge/node_modules/enzyme/build/ShallowWrapper.js:2197:17)
+    at ShallowWrapper.props (/projects/challenge/node_modules/enzyme/build/ShallowWrapper.js:1431:21)
+    at Object.test (/projects/challenge/src/tests/NavBar.test.js:20:19)
+    at Object.asyncFn (/projects/challenge/node_modules/jest-jasmine2/build/jasmine-async.js:68:30)
+    at resolve (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:38:12)
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:31:21)
+    at Promise.resolve.then.el (/projects/challenge/node_modules/p-map/index.js:46:16)
+    at &lt;anonymous&gt;
+    at process._tickCallback (internal/process/next_tick.js:189:7)" type="AssertionError">
+      </failure>
+    </testcase>
+    <testcase classname="testing NavBar component" name="checking the NavBar allpatients router content" time="0">
+      <failure message="Error: Method “props” is meant to be run on 1 node. 0 found instead.
+    at ShallowWrapper.single (/projects/challenge/node_modules/enzyme/build/ShallowWrapper.js:2197:17)
+    at ShallowWrapper.props (/projects/challenge/node_modules/enzyme/build/ShallowWrapper.js:1431:21)
+    at Object.test (/projects/challenge/src/tests/NavBar.test.js:29:19)
+    at Object.asyncFn (/projects/challenge/node_modules/jest-jasmine2/build/jasmine-async.js:68:30)
+    at resolve (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:38:12)
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:31:21)
+    at Promise.resolve.then.el (/projects/challenge/node_modules/p-map/index.js:46:16)
+    at &lt;anonymous&gt;
+    at process._tickCallback (internal/process/next_tick.js:189:7)" type="AssertionError">
+      </failure>
+    </testcase>
+    <testcase classname="testing NavBar component" name="checking the NavBar Book appointment router content" time="0">
+      <failure message="Error: Method “props” is meant to be run on 1 node. 0 found instead.
+    at ShallowWrapper.single (/projects/challenge/node_modules/enzyme/build/ShallowWrapper.js:2197:17)
+    at ShallowWrapper.props (/projects/challenge/node_modules/enzyme/build/ShallowWrapper.js:1431:21)
+    at Object.test (/projects/challenge/src/tests/NavBar.test.js:37:19)
+    at Object.asyncFn (/projects/challenge/node_modules/jest-jasmine2/build/jasmine-async.js:68:30)
+    at resolve (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:38:12)
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:31:21)
+    at Promise.resolve.then.el (/projects/challenge/node_modules/p-map/index.js:46:16)
+    at &lt;anonymous&gt;
+    at process._tickCallback (internal/process/next_tick.js:189:7)" type="AssertionError">
+      </failure>
+    </testcase>
+    <testcase classname="testing NavBar component" name="checking the NavBar all appointments router content" time="0">
+      <failure message="Error: Method “props” is meant to be run on 1 node. 0 found instead.
+    at ShallowWrapper.single (/projects/challenge/node_modules/enzyme/build/ShallowWrapper.js:2197:17)
+    at ShallowWrapper.props (/projects/challenge/node_modules/enzyme/build/ShallowWrapper.js:1431:21)
+    at Object.test (/projects/challenge/src/tests/NavBar.test.js:48:19)
+    at Object.asyncFn (/projects/challenge/node_modules/jest-jasmine2/build/jasmine-async.js:68:30)
+    at resolve (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:38:12)
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:31:21)
+    at Promise.resolve.then.el (/projects/challenge/node_modules/p-map/index.js:46:16)
+    at &lt;anonymous&gt;
+    at process._tickCallback (internal/process/next_tick.js:189:7)" type="AssertionError">
+      </failure>
+    </testcase>
+    <system-out/>
+    <system-err/>
+  </testsuite>
+  <testsuite id="10" name="/projects/challenge/src/tests/AllAppointments.test.js" errors="0" package="/projects/challenge/src/tests/AllAppointments.test.js" hostname="localhost" tests="1" failures="0" time="1.414" timestamp="2021-11-26T23:10:50">
+    <properties>
+    </properties>
+    <testcase classname="testing AllAppointments" name="should set the state values" time="0">
+    </testcase>
+    <system-out/>
+    <system-err/>
+  </testsuite>
+  <testsuite id="11" name="/projects/challenge/src/tests/AllPatients.test.js" errors="0" package="/projects/challenge/src/tests/AllPatients.test.js" hostname="localhost" tests="1" failures="0" time="1.403" timestamp="2021-11-26T23:10:50">
+    <properties>
+    </properties>
+    <testcase classname="testing AllPatients" name="should set the state values" time="0">
+    </testcase>
+    <system-out/>
+    <system-err/>
+  </testsuite>
+  <testsuite id="12" name="/projects/challenge/src/tests/SignInForm.test.js" errors="0" package="/projects/challenge/src/tests/SignInForm.test.js" hostname="localhost" tests="7" failures="0" time="1.794" timestamp="2021-11-26T23:10:49">
+    <properties>
+    </properties>
+    <testcase classname="SignInForm" name="should render seven &lt;div /&gt;" time="0">
+    </testcase>
+    <testcase classname="SignInForm" name="should render four &lt;label&gt;s" time="0">
+    </testcase>
+    <testcase classname="SignInForm" name="should render four &lt;input&gt;s" time="0">
+    </testcase>
+    <testcase classname="SignInForm" name="renders a fname input" time="0">
+    </testcase>
+    <testcase classname="SignInForm" name="renders a lname input" time="0">
+    </testcase>
+    <testcase classname="SignInForm" name="should change the state of the Login Component" time="0">
+    </testcase>
+    <testcase classname="SignInForm" name="should change the state of the Login Component" time="0">
+    </testcase>
+    <system-out/>
+    <system-err/>
+  </testsuite>
+</testsuites>

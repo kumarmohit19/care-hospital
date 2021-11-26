@@ -102,8 +102,8 @@ class AddPatient extends Component {
               <input type="location" id="location"  name="location" className="FormField__Input" value={this.location} onChange={this.handleChange} placeholder="Enter Password"/>
               </div>
               <div className="FormField">
-              <label htmlFor="mobileno" className="FormField__Label">Mobile No</label>
-              <input type="ph" name="mobileno" id="mobileno" className="FormField__Input" value={this.mobileno} onChange={this.handleChange} placeholder="Enter email"/>
+              <label htmlFor="mobile" className="FormField__Label">Mobile No</label>
+              <input type="tel" name="mobile" id="mobile" className="FormField__Input" value={this.mobile} onChange={this.handleChange} placeholder="Enter email"/>
               </div>
               <div className="FormField">
                 {/* Write code here to create Register Button */}
