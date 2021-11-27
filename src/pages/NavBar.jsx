@@ -30,16 +30,16 @@ const Example = props => {
           <Collapse isOpen={isOpen} navbar>
             <Nav className="ml-auto" navbar>
               <NavItem>
-                <Link to="/addPatient" className="nav-link">Add Patient</Link>
+                <NavLink href="/addPatient" className="nav-link">Add Patient</NavLink>
               </NavItem>
               <NavItem>
-                <Link to="/allPatients" className="nav-link">All Patients</Link>
+                <NavLink href="/allPatients" className="nav-link">All Patients</NavLink>
               </NavItem>
               <NavItem>
-                <Link to="/bookAppointment" className="nav-link">Book Appointments</Link>
+                <NavLink href="/bookAppointment" className="nav-link">Book Appointments</NavLink>
               </NavItem>
               <NavItem>
-                <Link to="/allAppointments/" className="nav-link">All Appointments</Link>
+                <NavLink href="/allAppointments/" className="nav-link">All Appointments</NavLink>
               </NavItem>
               <UncontrolledDropdown nav inNavbar>
                 <DropdownToggle nav caret>
