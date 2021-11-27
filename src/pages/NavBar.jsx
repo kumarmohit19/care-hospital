@@ -38,7 +38,7 @@ const Example = props => {
                 <NavLink to="/bookAppointment" className="nav-link">Book Appointments</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink to="/allAppointments/" className="nav-link">All Appointments</NavLink>
+                <NavLink to="/allAppointments" className="nav-link">All Appointments</NavLink>
               </NavItem>
               <UncontrolledDropdown nav inNavbar>
                 <DropdownToggle nav caret>
