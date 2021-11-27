@@ -25,7 +25,7 @@ const Example = props => {
     <div>
         <Navbar color="light" light expand="md">
           <NavbarBrand href="/">DMRD</NavbarBrand>
-          <NavbarToggler onClick={this.toggle} />
+          <NavbarToggler onClick={toggle} />
           <Collapse isOpen={isOpen} navbar>
             <Nav className="ml-auto" navbar>
               <NavItem>

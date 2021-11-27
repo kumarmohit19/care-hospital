@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-  <testsuite id="0" name="/projects/challenge/src/tests/NavBar.test.js" errors="0" package="/projects/challenge/src/tests/NavBar.test.js" hostname="localhost" tests="4" failures="4" time="11.302" timestamp="2021-11-27T00:17:08">
+  <testsuite id="0" name="/projects/challenge/src/tests/NavBar.test.js" errors="0" package="/projects/challenge/src/tests/NavBar.test.js" hostname="localhost" tests="4" failures="4" time="10.515" timestamp="2021-11-27T00:21:13">
     <properties>
     </properties>
     <testcase classname="testing NavBar component" name="checking the NavBar NavLink router content" time="0">
       <failure message="TypeError: Cannot read property &apos;toggle&apos; of undefined
-    at Example (/projects/challenge/src/pages/NavBar.jsx:29:219)
+    at Example (/projects/challenge/src/pages/NavBar.jsx:28:219)
     at ReactShallowRenderer.render (/projects/challenge/node_modules/react-test-renderer/cjs/react-test-renderer-shallow.development.js:829:32)
     at renderElement (/projects/challenge/node_modules/enzyme-adapter-react-16/build/ReactSixteenAdapter.js:786:42)
     at /projects/challenge/node_modules/enzyme-adapter-react-16/build/ReactSixteenAdapter.js:867:24
@@ -25,7 +25,7 @@
     </testcase>
     <testcase classname="testing NavBar component" name="checking the NavBar allpatients router content" time="0">
       <failure message="TypeError: Cannot read property &apos;toggle&apos; of undefined
-    at Example (/projects/challenge/src/pages/NavBar.jsx:29:219)
+    at Example (/projects/challenge/src/pages/NavBar.jsx:28:219)
     at ReactShallowRenderer.render (/projects/challenge/node_modules/react-test-renderer/cjs/react-test-renderer-shallow.development.js:829:32)
     at renderElement (/projects/challenge/node_modules/enzyme-adapter-react-16/build/ReactSixteenAdapter.js:786:42)
     at /projects/challenge/node_modules/enzyme-adapter-react-16/build/ReactSixteenAdapter.js:867:24
@@ -45,7 +45,7 @@
     </testcase>
     <testcase classname="testing NavBar component" name="checking the NavBar Book appointment router content" time="0">
       <failure message="TypeError: Cannot read property &apos;toggle&apos; of undefined
-    at Example (/projects/challenge/src/pages/NavBar.jsx:29:219)
+    at Example (/projects/challenge/src/pages/NavBar.jsx:28:219)
     at ReactShallowRenderer.render (/projects/challenge/node_modules/react-test-renderer/cjs/react-test-renderer-shallow.development.js:829:32)
     at renderElement (/projects/challenge/node_modules/enzyme-adapter-react-16/build/ReactSixteenAdapter.js:786:42)
     at /projects/challenge/node_modules/enzyme-adapter-react-16/build/ReactSixteenAdapter.js:867:24
@@ -65,7 +65,7 @@
     </testcase>
     <testcase classname="testing NavBar component" name="checking the NavBar all appointments router content" time="0">
       <failure message="TypeError: Cannot read property &apos;toggle&apos; of undefined
-    at Example (/projects/challenge/src/pages/NavBar.jsx:29:219)
+    at Example (/projects/challenge/src/pages/NavBar.jsx:28:219)
     at ReactShallowRenderer.render (/projects/challenge/node_modules/react-test-renderer/cjs/react-test-renderer-shallow.development.js:829:32)
     at renderElement (/projects/challenge/node_modules/enzyme-adapter-react-16/build/ReactSixteenAdapter.js:786:42)
     at /projects/challenge/node_modules/enzyme-adapter-react-16/build/ReactSixteenAdapter.js:867:24
@@ -86,59 +86,7 @@
     <system-out/>
     <system-err/>
   </testsuite>
-  <testsuite id="1" name="/projects/challenge/src/tests/ViewAppointment.test.js" errors="0" package="/projects/challenge/src/tests/ViewAppointment.test.js" hostname="localhost" tests="7" failures="0" time="12.597" timestamp="2021-11-27T00:17:07">
-    <properties>
-    </properties>
-    <testcase classname="testing ViewAppointment" name="should render eight &lt;div/&gt;" time="0">
-    </testcase>
-    <testcase classname="testing ViewAppointment" name="should render five labels &lt;label/&gt;" time="0">
-    </testcase>
-    <testcase classname="testing ViewAppointment" name="renders a name input" time="0">
-    </testcase>
-    <testcase classname="testing ViewAppointment" name="renders a disease" time="0">
-    </testcase>
-    <testcase classname="testing ViewAppointment" name="renders a appdate" time="0">
-    </testcase>
-    <testcase classname="testing ViewAppointment" name="renders a slot" time="0">
-    </testcase>
-    <testcase classname="testing ViewAppointment" name="renders a description" time="0">
-    </testcase>
-    <system-out/>
-    <system-err/>
-  </testsuite>
-  <testsuite id="2" name="/projects/challenge/src/tests/EditPatient.test.js" errors="0" package="/projects/challenge/src/tests/EditPatient.test.js" hostname="localhost" tests="13" failures="0" time="12.687" timestamp="2021-11-27T00:17:08">
-    <properties>
-    </properties>
-    <testcase classname="testing EditPatient" name="should render eight &lt;div/&gt;" time="0">
-    </testcase>
-    <testcase classname="testing EditPatient" name="should render five labels &lt;label/&gt;" time="0">
-    </testcase>
-    <testcase classname="testing EditPatient" name="should render three inputs &lt;input/&gt;" time="0">
-    </testcase>
-    <testcase classname="testing EditPatient" name="renders a name input" time="0">
-    </testcase>
-    <testcase classname="testing EditPatient" name="renders a email" time="0">
-    </testcase>
-    <testcase classname="testing EditPatient" name="renders a dob" time="0">
-    </testcase>
-    <testcase classname="testing EditPatient" name="renders a location" time="0">
-    </testcase>
-    <testcase classname="testing EditPatient" name="renders a mobile" time="0">
-    </testcase>
-    <testcase classname="testing EditPatient" name="should change the name state of adding patient" time="0">
-    </testcase>
-    <testcase classname="testing EditPatient" name="should change the email state of adding patient" time="0">
-    </testcase>
-    <testcase classname="testing EditPatient" name="should change the dob state of adding patient" time="0">
-    </testcase>
-    <testcase classname="testing EditPatient" name="should change the location state of adding patient" time="0">
-    </testcase>
-    <testcase classname="testing EditPatient" name="should change the mobile state of adding patient" time="0">
-    </testcase>
-    <system-out/>
-    <system-err/>
-  </testsuite>
-  <testsuite id="3" name="/projects/challenge/src/tests/ViewProfile.test.js" errors="0" package="/projects/challenge/src/tests/ViewProfile.test.js" hostname="localhost" tests="7" failures="0" time="12.599" timestamp="2021-11-27T00:17:08">
+  <testsuite id="1" name="/projects/challenge/src/tests/ViewProfile.test.js" errors="0" package="/projects/challenge/src/tests/ViewProfile.test.js" hostname="localhost" tests="7" failures="0" time="12.108" timestamp="2021-11-27T00:21:13">
     <properties>
     </properties>
     <testcase classname="testing ViewProfile" name="should render nine &lt;div/&gt;" time="0">
@@ -158,7 +106,47 @@
     <system-out/>
     <system-err/>
   </testsuite>
-  <testsuite id="4" name="/projects/challenge/src/tests/AddPatient.test.js" errors="0" package="/projects/challenge/src/tests/AddPatient.test.js" hostname="localhost" tests="14" failures="0" time="12.704" timestamp="2021-11-27T00:17:08">
+  <testsuite id="2" name="/projects/challenge/src/tests/ViewAppointment.test.js" errors="0" package="/projects/challenge/src/tests/ViewAppointment.test.js" hostname="localhost" tests="7" failures="0" time="11.792" timestamp="2021-11-27T00:21:14">
+    <properties>
+    </properties>
+    <testcase classname="testing ViewAppointment" name="should render eight &lt;div/&gt;" time="0">
+    </testcase>
+    <testcase classname="testing ViewAppointment" name="should render five labels &lt;label/&gt;" time="0">
+    </testcase>
+    <testcase classname="testing ViewAppointment" name="renders a name input" time="0">
+    </testcase>
+    <testcase classname="testing ViewAppointment" name="renders a disease" time="0">
+    </testcase>
+    <testcase classname="testing ViewAppointment" name="renders a appdate" time="0">
+    </testcase>
+    <testcase classname="testing ViewAppointment" name="renders a slot" time="0">
+    </testcase>
+    <testcase classname="testing ViewAppointment" name="renders a description" time="0">
+    </testcase>
+    <system-out/>
+    <system-err/>
+  </testsuite>
+  <testsuite id="3" name="/projects/challenge/src/tests/ViewPatient.test.js" errors="0" package="/projects/challenge/src/tests/ViewPatient.test.js" hostname="localhost" tests="7" failures="0" time="12.419" timestamp="2021-11-27T00:21:13">
+    <properties>
+    </properties>
+    <testcase classname="testing ViewPatient" name="should render seven &lt;div /&gt;" time="0">
+    </testcase>
+    <testcase classname="testing ViewPatient" name="should render five labels &lt;span/&gt;" time="0">
+    </testcase>
+    <testcase classname="testing ViewPatient" name="renders a name input" time="0">
+    </testcase>
+    <testcase classname="testing ViewPatient" name="renders a email" time="0">
+    </testcase>
+    <testcase classname="testing ViewPatient" name="renders a dob" time="0">
+    </testcase>
+    <testcase classname="testing ViewPatient" name="renders a location" time="0">
+    </testcase>
+    <testcase classname="testing ViewPatient" name="renders a mobile" time="0">
+    </testcase>
+    <system-out/>
+    <system-err/>
+  </testsuite>
+  <testsuite id="4" name="/projects/challenge/src/tests/AddPatient.test.js" errors="0" package="/projects/challenge/src/tests/AddPatient.test.js" hostname="localhost" tests="14" failures="0" time="12.609" timestamp="2021-11-27T00:21:13">
     <properties>
     </properties>
     <testcase classname="testing add patient" name="should render eight &lt;div/&gt;" time="0">
@@ -192,7 +180,71 @@
     <system-out/>
     <system-err/>
   </testsuite>
-  <testsuite id="5" name="/projects/challenge/src/tests/SignUpForm.test.js" errors="0" package="/projects/challenge/src/tests/SignUpForm.test.js" hostname="localhost" tests="16" failures="0" time="12.88" timestamp="2021-11-27T00:17:08">
+  <testsuite id="5" name="/projects/challenge/src/tests/EditPatient.test.js" errors="0" package="/projects/challenge/src/tests/EditPatient.test.js" hostname="localhost" tests="13" failures="0" time="12.706" timestamp="2021-11-27T00:21:13">
+    <properties>
+    </properties>
+    <testcase classname="testing EditPatient" name="should render eight &lt;div/&gt;" time="0">
+    </testcase>
+    <testcase classname="testing EditPatient" name="should render five labels &lt;label/&gt;" time="0">
+    </testcase>
+    <testcase classname="testing EditPatient" name="should render three inputs &lt;input/&gt;" time="0">
+    </testcase>
+    <testcase classname="testing EditPatient" name="renders a name input" time="0">
+    </testcase>
+    <testcase classname="testing EditPatient" name="renders a email" time="0">
+    </testcase>
+    <testcase classname="testing EditPatient" name="renders a dob" time="0">
+    </testcase>
+    <testcase classname="testing EditPatient" name="renders a location" time="0">
+    </testcase>
+    <testcase classname="testing EditPatient" name="renders a mobile" time="0">
+    </testcase>
+    <testcase classname="testing EditPatient" name="should change the name state of adding patient" time="0">
+    </testcase>
+    <testcase classname="testing EditPatient" name="should change the email state of adding patient" time="0">
+    </testcase>
+    <testcase classname="testing EditPatient" name="should change the dob state of adding patient" time="0">
+    </testcase>
+    <testcase classname="testing EditPatient" name="should change the location state of adding patient" time="0">
+    </testcase>
+    <testcase classname="testing EditPatient" name="should change the mobile state of adding patient" time="0">
+    </testcase>
+    <system-out/>
+    <system-err/>
+  </testsuite>
+  <testsuite id="6" name="/projects/challenge/src/tests/BookAppointment.test.js" errors="0" package="/projects/challenge/src/tests/BookAppointment.test.js" hostname="localhost" tests="13" failures="0" time="3.003" timestamp="2021-11-27T00:21:23">
+    <properties>
+    </properties>
+    <testcase classname="testing BookAppointment" name="should render eight &lt;div/&gt;" time="0">
+    </testcase>
+    <testcase classname="testing BookAppointment" name="should set the state values" time="0">
+    </testcase>
+    <testcase classname="testing BookAppointment" name="should render five labels &lt;label/&gt;" time="0">
+    </testcase>
+    <testcase classname="testing BookAppointment" name="should render three inputs &lt;input/&gt;" time="0">
+    </testcase>
+    <testcase classname="testing BookAppointment" name="should render two selects &lt;select/&gt;" time="0">
+    </testcase>
+    <testcase classname="testing BookAppointment" name="renders a name input" time="0">
+    </testcase>
+    <testcase classname="testing BookAppointment" name="renders a name disease" time="0">
+    </testcase>
+    <testcase classname="testing BookAppointment" name="renders a name appdate" time="0">
+    </testcase>
+    <testcase classname="testing BookAppointment" name="renders a name slot" time="0">
+    </testcase>
+    <testcase classname="testing BookAppointment" name="renders a description" time="0">
+    </testcase>
+    <testcase classname="testing BookAppointment" name="should change the disease state of adding patient" time="0">
+    </testcase>
+    <testcase classname="testing BookAppointment" name="should change the appdate state of adding patient" time="0">
+    </testcase>
+    <testcase classname="testing BookAppointment" name="should change the description state of adding patient" time="0">
+    </testcase>
+    <system-out/>
+    <system-err/>
+  </testsuite>
+  <testsuite id="7" name="/projects/challenge/src/tests/SignUpForm.test.js" errors="0" package="/projects/challenge/src/tests/SignUpForm.test.js" hostname="localhost" tests="16" failures="0" time="13.697" timestamp="2021-11-27T00:21:13">
     <properties>
     </properties>
     <testcase classname="SignUpForm" name="should render eleven &lt;div /&gt;" time="0">
@@ -230,27 +282,7 @@
     <system-out/>
     <system-err/>
   </testsuite>
-  <testsuite id="6" name="/projects/challenge/src/tests/ViewPatient.test.js" errors="0" package="/projects/challenge/src/tests/ViewPatient.test.js" hostname="localhost" tests="7" failures="0" time="13.106" timestamp="2021-11-27T00:17:07">
-    <properties>
-    </properties>
-    <testcase classname="testing ViewPatient" name="should render seven &lt;div /&gt;" time="0">
-    </testcase>
-    <testcase classname="testing ViewPatient" name="should render five labels &lt;span/&gt;" time="0">
-    </testcase>
-    <testcase classname="testing ViewPatient" name="renders a name input" time="0">
-    </testcase>
-    <testcase classname="testing ViewPatient" name="renders a email" time="0">
-    </testcase>
-    <testcase classname="testing ViewPatient" name="renders a dob" time="0">
-    </testcase>
-    <testcase classname="testing ViewPatient" name="renders a location" time="0">
-    </testcase>
-    <testcase classname="testing ViewPatient" name="renders a mobile" time="0">
-    </testcase>
-    <system-out/>
-    <system-err/>
-  </testsuite>
-  <testsuite id="7" name="/projects/challenge/src/App.test.js" errors="0" package="/projects/challenge/src/App.test.js" hostname="localhost" tests="1" failures="0" time="0.806" timestamp="2021-11-27T00:17:21">
+  <testsuite id="8" name="/projects/challenge/src/App.test.js" errors="0" package="/projects/challenge/src/App.test.js" hostname="localhost" tests="1" failures="0" time="1.013" timestamp="2021-11-27T00:21:26">
     <properties>
     </properties>
     <testcase classname="renders without crashing" name="renders without crashing" time="0">
@@ -258,15 +290,7 @@
     <system-out/>
     <system-err/>
   </testsuite>
-  <testsuite id="8" name="/projects/challenge/src/tests/AllAppointments.test.js" errors="0" package="/projects/challenge/src/tests/AllAppointments.test.js" hostname="localhost" tests="1" failures="0" time="1.084" timestamp="2021-11-27T00:17:20">
-    <properties>
-    </properties>
-    <testcase classname="testing AllAppointments" name="should set the state values" time="0">
-    </testcase>
-    <system-out/>
-    <system-err/>
-  </testsuite>
-  <testsuite id="9" name="/projects/challenge/src/tests/AllPatients.test.js" errors="0" package="/projects/challenge/src/tests/AllPatients.test.js" hostname="localhost" tests="1" failures="0" time="1.019" timestamp="2021-11-27T00:17:20">
+  <testsuite id="9" name="/projects/challenge/src/tests/AllPatients.test.js" errors="0" package="/projects/challenge/src/tests/AllPatients.test.js" hostname="localhost" tests="1" failures="0" time="1.181" timestamp="2021-11-27T00:21:26">
     <properties>
     </properties>
     <testcase classname="testing AllPatients" name="should set the state values" time="0">
@@ -274,27 +298,7 @@
     <system-out/>
     <system-err/>
   </testsuite>
-  <testsuite id="10" name="/projects/challenge/src/tests/SignInForm.test.js" errors="0" package="/projects/challenge/src/tests/SignInForm.test.js" hostname="localhost" tests="7" failures="0" time="1.308" timestamp="2021-11-27T00:17:20">
-    <properties>
-    </properties>
-    <testcase classname="SignInForm" name="should render seven &lt;div /&gt;" time="0">
-    </testcase>
-    <testcase classname="SignInForm" name="should render four &lt;label&gt;s" time="0">
-    </testcase>
-    <testcase classname="SignInForm" name="should render four &lt;input&gt;s" time="0">
-    </testcase>
-    <testcase classname="SignInForm" name="renders a fname input" time="0">
-    </testcase>
-    <testcase classname="SignInForm" name="renders a lname input" time="0">
-    </testcase>
-    <testcase classname="SignInForm" name="should change the state of the Login Component" time="0">
-    </testcase>
-    <testcase classname="SignInForm" name="should change the state of the Login Component" time="0">
-    </testcase>
-    <system-out/>
-    <system-err/>
-  </testsuite>
-  <testsuite id="11" name="/projects/challenge/src/tests/EditAppointment.test.js" errors="0" package="/projects/challenge/src/tests/EditAppointment.test.js" hostname="localhost" tests="13" failures="0" time="1.505" timestamp="2021-11-27T00:17:20">
+  <testsuite id="10" name="/projects/challenge/src/tests/EditAppointment.test.js" errors="0" package="/projects/challenge/src/tests/EditAppointment.test.js" hostname="localhost" tests="13" failures="0" time="1.514" timestamp="2021-11-27T00:21:25">
     <properties>
     </properties>
     <testcase classname="testing EditAppointment" name="should render eight &lt;div/&gt;" time="0">
@@ -326,34 +330,30 @@
     <system-out/>
     <system-err/>
   </testsuite>
-  <testsuite id="12" name="/projects/challenge/src/tests/BookAppointment.test.js" errors="0" package="/projects/challenge/src/tests/BookAppointment.test.js" hostname="localhost" tests="13" failures="0" time="2.729" timestamp="2021-11-27T00:17:19">
+  <testsuite id="11" name="/projects/challenge/src/tests/AllAppointments.test.js" errors="0" package="/projects/challenge/src/tests/AllAppointments.test.js" hostname="localhost" tests="1" failures="0" time="1.395" timestamp="2021-11-27T00:21:25">
     <properties>
     </properties>
-    <testcase classname="testing BookAppointment" name="should render eight &lt;div/&gt;" time="0">
+    <testcase classname="testing AllAppointments" name="should set the state values" time="0">
     </testcase>
-    <testcase classname="testing BookAppointment" name="should set the state values" time="0">
+    <system-out/>
+    <system-err/>
+  </testsuite>
+  <testsuite id="12" name="/projects/challenge/src/tests/SignInForm.test.js" errors="0" package="/projects/challenge/src/tests/SignInForm.test.js" hostname="localhost" tests="7" failures="0" time="1.419" timestamp="2021-11-27T00:21:25">
+    <properties>
+    </properties>
+    <testcase classname="SignInForm" name="should render seven &lt;div /&gt;" time="0">
     </testcase>
-    <testcase classname="testing BookAppointment" name="should render five labels &lt;label/&gt;" time="0">
+    <testcase classname="SignInForm" name="should render four &lt;label&gt;s" time="0">
     </testcase>
-    <testcase classname="testing BookAppointment" name="should render three inputs &lt;input/&gt;" time="0">
+    <testcase classname="SignInForm" name="should render four &lt;input&gt;s" time="0">
     </testcase>
-    <testcase classname="testing BookAppointment" name="should render two selects &lt;select/&gt;" time="0">
+    <testcase classname="SignInForm" name="renders a fname input" time="0">
     </testcase>
-    <testcase classname="testing BookAppointment" name="renders a name input" time="0">
+    <testcase classname="SignInForm" name="renders a lname input" time="0">
     </testcase>
-    <testcase classname="testing BookAppointment" name="renders a name disease" time="0">
+    <testcase classname="SignInForm" name="should change the state of the Login Component" time="0">
     </testcase>
-    <testcase classname="testing BookAppointment" name="renders a name appdate" time="0">
-    </testcase>
-    <testcase classname="testing BookAppointment" name="renders a name slot" time="0">
-    </testcase>
-    <testcase classname="testing BookAppointment" name="renders a description" time="0">
-    </testcase>
-    <testcase classname="testing BookAppointment" name="should change the disease state of adding patient" time="0">
-    </testcase>
-    <testcase classname="testing BookAppointment" name="should change the appdate state of adding patient" time="0">
-    </testcase>
-    <testcase classname="testing BookAppointment" name="should change the description state of adding patient" time="0">
+    <testcase classname="SignInForm" name="should change the state of the Login Component" time="0">
     </testcase>
     <system-out/>
     <system-err/>
