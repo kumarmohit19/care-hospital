@@ -37,23 +37,23 @@ class ViewProfile extends Component {
             {/*Write code to create labels for name,email,dob,mobileno and location */}
             <div className="FormField">
              <span className="">Username</span>
-             <input type="text" name="name" id="name" className="FormField__Input" value={this.admin.name} onChange={this.handleChange} placeholder="Enter email"/>
+             <input type="text" id="name" className="FormField__Input" value={this.admin && this.admin.name} placeholder="Enter email"/>
             </div>
             <div className="FormField">
              <span className="">Email ID</span>
-             <input type="email" id="email"  name="email" className="FormField__Input" value={this.admin.email} onChange={this.handleChange} placeholder="Enter Password"/>
+             <input type="email" id="email" className="FormField__Input" value={this.admin && this.admin.email}  placeholder="Enter Password"/>
             </div>
             <div className="FormField">
              <span  className="">Date of Birth</span>
-             <input type="date" id="dob"  name="dob" className="FormField__Input" value={this.admin.dob} onChange={this.handleChange} placeholder="Enter Password"/>
+             <input type="date" id="dob"  className="FormField__Input" value={this.admin && this.admin.dob}  placeholder="Enter Password"/>
             </div>
             <div className="FormField">
              <span className="">Mobile No</span>
-             <input type="ph" name="mobile" id="mobile" className="FormField__Input" value={this.admin.mobile} onChange={this.handleChange} placeholder="Enter email"/>
+             <input type="tel" id="mobileno" className="FormField__Input" value={this.admin && this.admin.mobileno}  placeholder="Enter email"/>
             </div>
             <div className="FormField">
              <span className="">Location</span>
-             <input type="location" id="location"  name="location" className="FormField__Input" value={this.admin.location} onChange={this.handleChange} placeholder="Enter Password"/>
+             <input type="text" id="location"  name="location" className="FormField__Input" value={this.admin && this.admin.location}  placeholder="Enter Password"/>
             </div>
               <div className="FormField">
                 {/*Write code here to create close button */}

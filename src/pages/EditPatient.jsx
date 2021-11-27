@@ -102,8 +102,8 @@ class EditPatient extends Component {
              <input type="date" id="dob"  name="dob" className="FormField__Input" value={this.dob} onChange={this.handleChange} placeholder="Enter Password"/>
             </div>
             <div className="FormField">
-             <label htmlFor="mobileno" className="FormField__Label">Mobile No</label>
-             <input type="ph" name="mobileno" id="mobileno" className="FormField__Input" value={this.mobileno} onChange={this.handleChange} placeholder="Enter email"/>
+             <label htmlFor="mobile" className="FormField__Label">Mobile No</label>
+             <input type="ph" name="mobile" id="mobile" className="FormField__Input" value={this.mobile} onChange={this.handleChange} placeholder="Enter email"/>
             </div>
             <div className="FormField">
              <label htmlFor="location" className="FormField__Label">Location</label>

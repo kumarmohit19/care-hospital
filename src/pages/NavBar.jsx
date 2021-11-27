@@ -17,14 +17,49 @@ import { Link } from "react-router-dom";
 import { NavLink as ReactLink } from "react-router-dom";
 
 const Example = props => {
+  /*should have a Navbar brand, toggler and the NavItem (logout) should be linked to sign-in page */
   const [isOpen, setIsOpen] = useState(false);
 
   const toggle = () => setIsOpen(!isOpen);
 
   return (
     <div>
-      {/*should have a Navbar brand, toggler and the NavItem (logout) should be linked to sign-in page */}
-    </div>
+        <Navbar color="light" light expand="md">
+          <NavbarBrand href="/">DMRD</NavbarBrand>
+          <NavbarToggler onClick={this.toggle} />
+          <Collapse isOpen={isOpen} navbar>
+            <Nav className="ml-auto" navbar>
+              <NavItem>
+                <Link to="/addPatient" className="nav-link">Add Patient</Link>
+              </NavItem>
+              <NavItem>
+                <Link to="/allPatients" className="nav-link">All Patients</Link>
+              </NavItem>
+              <NavItem>
+                <Link to="/bookAppointment" className="nav-link">Book Appointments</Link>
+              </NavItem>
+              <NavItem>
+                <Link to="/allAppointments/" className="nav-link">All Appointments</Link>
+              </NavItem>
+              <UncontrolledDropdown nav inNavbar>
+                <DropdownToggle nav caret>
+                  User
+                </DropdownToggle>
+                <DropdownMenu right>
+                  <Link to="/viewProfile" className="nav-link">
+                    ViewProfile
+                  </Link>
+                  <DropdownItem divider />
+                  <Link to="/" className="nav-link">
+                    Logout
+                  </Link>
+                </DropdownMenu>
+              </UncontrolledDropdown>
+            </Nav>
+          </Collapse>
+        </Navbar>
+      </div>
+    
   );
 };
 export default Example;

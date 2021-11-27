@@ -39,23 +39,23 @@ class ViewPatient extends Component {
               {/* Write code here to create fields for name, disease,appdate, slot and mobile*/}
               <div className="FormField">
              <span className="">Username</span>
-             <input type="text" name="name" id="name" className="FormField__Input" value={this.patient.name} onChange={this.handleChange} placeholder="Enter email"/>
+             <input type="text" name="name" id="name" className="FormField__Input" value={this.patient && this.patient.name} onChange={this.handleChange} placeholder="Enter email"/>
             </div>
             <div className="FormField">
              <span className="">Email ID</span>
-             <input type="email" id="email"  name="email" className="FormField__Input" value={this.patient.email} onChange={this.handleChange} placeholder="Enter Password"/>
+             <input type="email" id="email"  name="email" className="FormField__Input" value={this.patient && this.patient.email} onChange={this.handleChange} placeholder="Enter Password"/>
             </div>
             <div className="FormField">
              <span  className="">Date of Birth</span>
-             <input type="date" id="dob"  name="dob" className="FormField__Input" value={this.patient.dob} onChange={this.handleChange} placeholder="Enter Password"/>
+             <input type="date" id="dob"  name="dob" className="FormField__Input" value={this.patient && this.patient.dob} onChange={this.handleChange} placeholder="Enter Password"/>
             </div>
             <div className="FormField">
              <span className="">Mobile No</span>
-             <input type="ph" name="mobile" id="mobile" className="FormField__Input" value={this.patient.mobile} onChange={this.handleChange} placeholder="Enter email"/>
+             <input type="tel" name="mobile" id="mobile" className="FormField__Input" value={this.patient && this.patient.mobile} onChange={this.handleChange} placeholder="Enter email"/>
             </div>
             <div className="FormField">
              <span className="">Location</span>
-             <input type="location" id="location"  name="location" className="FormField__Input" value={this.patient.location} onChange={this.handleChange} placeholder="Enter Password"/>
+             <input type="text" id="location"  name="location" className="FormField__Input" value={this.patient && this.patient.location} onChange={this.handleChange} placeholder="Enter Password"/>
             </div>
               <div className="FormField">
                 {/*Write code here to create close button */}
